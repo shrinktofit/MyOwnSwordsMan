@@ -1,0 +1,585 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282",
+  "files": [],
+  "subMetas": {
+    "30732": {
+      "importer": "gltf-skeleton",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@30732",
+      "displayName": "",
+      "id": "30732",
+      "name": "UnnamedSkeleton-0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "01512": {
+      "importer": "gltf-mesh",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@01512",
+      "displayName": "",
+      "id": "01512",
+      "name": "Beta_Joints.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eca75": {
+      "importer": "gltf-mesh",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@eca75",
+      "displayName": "",
+      "id": "eca75",
+      "name": "Beta_Surface.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "18d6f": {
+      "importer": "gltf-animation",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@18d6f",
+      "displayName": "",
+      "id": "18d6f",
+      "name": "mixamo.com.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 16.625
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1394": {
+      "importer": "gltf-skeleton",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@f1394",
+      "displayName": "",
+      "id": "f1394",
+      "name": "UnnamedSkeleton-1.skeleton",
+      "userData": {
+        "gltfIndex": 1,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f0f9": {
+      "importer": "gltf-material",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@0f0f9",
+      "displayName": "",
+      "id": "0f0f9",
+      "name": "Beta_Joints_MAT.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "124e8": {
+      "importer": "gltf-material",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@124e8",
+      "displayName": "",
+      "id": "124e8",
+      "name": "asdf1:Beta_HighLimbsGeoSG2.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "503de": {
+      "importer": "gltf-scene",
+      "uuid": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@503de",
+      "displayName": "",
+      "id": "503de",
+      "name": "Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 16.625,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "mixamo.com",
+            "from": 0,
+            "to": 16.625,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@503de",
+    "assetFinder": {
+      "meshes": [
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@01512",
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@eca75"
+      ],
+      "skeletons": [
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@30732",
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@f1394"
+      ],
+      "textures": [],
+      "materials": [
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@0f0f9",
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@124e8"
+      ],
+      "scenes": [
+        "2ed7a0fd-9ea1-4b64-bb16-250f53e63282@503de"
+      ]
+    },
+    "info": {
+      "nodes": [
+        {
+          "name": "mixamorig:Hips",
+          "children": [
+            1,
+            57,
+            62
+          ]
+        },
+        {
+          "name": "mixamorig:Spine",
+          "children": [
+            2
+          ]
+        },
+        {
+          "name": "mixamorig:Spine1",
+          "children": [
+            3
+          ]
+        },
+        {
+          "name": "mixamorig:Spine2",
+          "children": [
+            4,
+            9,
+            33
+          ]
+        },
+        {
+          "name": "mixamorig:Neck",
+          "children": [
+            5
+          ]
+        },
+        {
+          "name": "mixamorig:Head",
+          "children": [
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "name": "mixamorig:HeadTop_End",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftEye",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightEye",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftShoulder",
+          "children": [
+            10
+          ]
+        },
+        {
+          "name": "mixamorig:LeftArm",
+          "children": [
+            11
+          ]
+        },
+        {
+          "name": "mixamorig:LeftForeArm",
+          "children": [
+            12
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHand",
+          "children": [
+            13,
+            17,
+            21,
+            25,
+            29
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb1",
+          "children": [
+            14
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb2",
+          "children": [
+            15
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb3",
+          "children": [
+            16
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandIndex1",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex2",
+          "children": [
+            19
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex3",
+          "children": [
+            20
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle1",
+          "children": [
+            22
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle2",
+          "children": [
+            23
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle3",
+          "children": [
+            24
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandRing1",
+          "children": [
+            26
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing2",
+          "children": [
+            27
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing3",
+          "children": [
+            28
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandPinky1",
+          "children": [
+            30
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky2",
+          "children": [
+            31
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky3",
+          "children": [
+            32
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightShoulder",
+          "children": [
+            34
+          ]
+        },
+        {
+          "name": "mixamorig:RightArm",
+          "children": [
+            35
+          ]
+        },
+        {
+          "name": "mixamorig:RightForeArm",
+          "children": [
+            36
+          ]
+        },
+        {
+          "name": "mixamorig:RightHand",
+          "children": [
+            37,
+            41,
+            45,
+            49,
+            53
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky1",
+          "children": [
+            38
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky2",
+          "children": [
+            39
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky3",
+          "children": [
+            40
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandRing1",
+          "children": [
+            42
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing2",
+          "children": [
+            43
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing3",
+          "children": [
+            44
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandMiddle1",
+          "children": [
+            46
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle2",
+          "children": [
+            47
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle3",
+          "children": [
+            48
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandIndex1",
+          "children": [
+            50
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex2",
+          "children": [
+            51
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex3",
+          "children": [
+            52
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandThumb1",
+          "children": [
+            54
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb2",
+          "children": [
+            55
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb3",
+          "children": [
+            56
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftUpLeg",
+          "children": [
+            58
+          ]
+        },
+        {
+          "name": "mixamorig:LeftLeg",
+          "children": [
+            59
+          ]
+        },
+        {
+          "name": "mixamorig:LeftFoot",
+          "children": [
+            60
+          ]
+        },
+        {
+          "name": "mixamorig:LeftToeBase",
+          "children": [
+            61
+          ]
+        },
+        {
+          "name": "mixamorig:LeftToe_End",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightUpLeg",
+          "children": [
+            63
+          ]
+        },
+        {
+          "name": "mixamorig:RightLeg",
+          "children": [
+            64
+          ]
+        },
+        {
+          "name": "mixamorig:RightFoot",
+          "children": [
+            65
+          ]
+        },
+        {
+          "name": "mixamorig:RightToeBase",
+          "children": [
+            66
+          ]
+        },
+        {
+          "name": "mixamorig:RightToe_End",
+          "children": []
+        },
+        {
+          "name": "Beta_Joints",
+          "children": []
+        },
+        {
+          "name": "Beta_Surface",
+          "children": []
+        }
+      ]
+    }
+  }
+}

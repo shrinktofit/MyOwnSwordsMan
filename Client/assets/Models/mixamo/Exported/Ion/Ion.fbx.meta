@@ -1,0 +1,586 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662",
+  "files": [],
+  "subMetas": {
+    "27448": {
+      "importer": "gltf-animation",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@27448",
+      "displayName": "",
+      "id": "27448",
+      "name": "T-pose.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "23cf5": {
+      "importer": "gltf-mesh",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@23cf5",
+      "displayName": "",
+      "id": "23cf5",
+      "name": "Box001_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 52
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d90a4": {
+      "importer": "gltf-material",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@d90a4",
+      "displayName": "",
+      "id": "d90a4",
+      "name": "01 - Default.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "469b5": {
+      "importer": "gltf-material",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@469b5",
+      "displayName": "",
+      "id": "469b5",
+      "name": "01 - Default22.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7fa96": {
+      "importer": "gltf-material",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@7fa96",
+      "displayName": "",
+      "id": "7fa96",
+      "name": "01 - Default225.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ebbfd": {
+      "importer": "gltf-material",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@ebbfd",
+      "displayName": "",
+      "id": "ebbfd",
+      "name": "01 - Default225fdf.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e6f3a": {
+      "importer": "gltf-material",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@e6f3a",
+      "displayName": "",
+      "id": "e6f3a",
+      "name": "01 - Default2sdss.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c61d5": {
+      "importer": "gltf-scene",
+      "uuid": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@c61d5",
+      "displayName": "",
+      "id": "c61d5",
+      "name": "Ion.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "Box001",
+          "children": []
+        },
+        {
+          "name": "mixamorig:Hips",
+          "children": [
+            2,
+            56,
+            61
+          ]
+        },
+        {
+          "name": "mixamorig:Spine",
+          "children": [
+            3
+          ]
+        },
+        {
+          "name": "mixamorig:Spine1",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "mixamorig:Spine2",
+          "children": [
+            5,
+            8,
+            32
+          ]
+        },
+        {
+          "name": "mixamorig:Neck",
+          "children": [
+            6
+          ]
+        },
+        {
+          "name": "mixamorig:Head",
+          "children": [
+            7
+          ]
+        },
+        {
+          "name": "mixamorig:HeadTop_End",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftShoulder",
+          "children": [
+            9
+          ]
+        },
+        {
+          "name": "mixamorig:LeftArm",
+          "children": [
+            10
+          ]
+        },
+        {
+          "name": "mixamorig:LeftForeArm",
+          "children": [
+            11
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHand",
+          "children": [
+            12,
+            16,
+            20,
+            24,
+            28
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb1",
+          "children": [
+            13
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb2",
+          "children": [
+            14
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb3",
+          "children": [
+            15
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandIndex1",
+          "children": [
+            17
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex2",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex3",
+          "children": [
+            19
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle1",
+          "children": [
+            21
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle2",
+          "children": [
+            22
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle3",
+          "children": [
+            23
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandRing1",
+          "children": [
+            25
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing2",
+          "children": [
+            26
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing3",
+          "children": [
+            27
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandPinky1",
+          "children": [
+            29
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky2",
+          "children": [
+            30
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky3",
+          "children": [
+            31
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightShoulder",
+          "children": [
+            33
+          ]
+        },
+        {
+          "name": "mixamorig:RightArm",
+          "children": [
+            34
+          ]
+        },
+        {
+          "name": "mixamorig:RightForeArm",
+          "children": [
+            35
+          ]
+        },
+        {
+          "name": "mixamorig:RightHand",
+          "children": [
+            36,
+            40,
+            44,
+            48,
+            52
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb1",
+          "children": [
+            37
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb2",
+          "children": [
+            38
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb3",
+          "children": [
+            39
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandIndex1",
+          "children": [
+            41
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex2",
+          "children": [
+            42
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex3",
+          "children": [
+            43
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandMiddle1",
+          "children": [
+            45
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle2",
+          "children": [
+            46
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle3",
+          "children": [
+            47
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandRing1",
+          "children": [
+            49
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing2",
+          "children": [
+            50
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing3",
+          "children": [
+            51
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandPinky1",
+          "children": [
+            53
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky2",
+          "children": [
+            54
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky3",
+          "children": [
+            55
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky4",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftUpLeg",
+          "children": [
+            57
+          ]
+        },
+        {
+          "name": "mixamorig:LeftLeg",
+          "children": [
+            58
+          ]
+        },
+        {
+          "name": "mixamorig:LeftFoot",
+          "children": [
+            59
+          ]
+        },
+        {
+          "name": "mixamorig:LeftToeBase",
+          "children": [
+            60
+          ]
+        },
+        {
+          "name": "mixamorig:LeftToe_End",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightUpLeg",
+          "children": [
+            62
+          ]
+        },
+        {
+          "name": "mixamorig:RightLeg",
+          "children": [
+            63
+          ]
+        },
+        {
+          "name": "mixamorig:RightFoot",
+          "children": [
+            64
+          ]
+        },
+        {
+          "name": "mixamorig:RightToeBase",
+          "children": [
+            65
+          ]
+        },
+        {
+          "name": "mixamorig:RightToe_End",
+          "children": []
+        }
+      ]
+    },
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 0,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "T-pose",
+            "from": 0,
+            "to": 0,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "eaf1b1b9-c176-4507-91bd-7f9e66df0662@c61d5",
+    "assetFinder": {
+      "meshes": [
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@23cf5"
+      ],
+      "skeletons": [
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@d90a4",
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@469b5",
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@7fa96",
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@ebbfd",
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@e6f3a"
+      ],
+      "scenes": [
+        "eaf1b1b9-c176-4507-91bd-7f9e66df0662@c61d5"
+      ]
+    }
+  }
+}

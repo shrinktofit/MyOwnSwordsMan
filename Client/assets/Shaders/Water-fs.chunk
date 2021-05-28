@@ -1,0 +1,30 @@
+#define CC_RECEIVE_SHADOW 0
+#define USE_LIGHTMAP 0
+#define CC_FORWARD_ADD 0
+#define CC_USE_INSTANCING 0
+
+precision highp float;
+#include <output>
+#include <shading-standard>
+
+in vec2 v_uv;
+in vec3 v_position;
+in vec3 v_normal;
+
+uniform Constant {
+    vec4 mainColor;
+};
+
+vec4 frag () {
+    StandardSurface s;
+    s.albedo = mainColor;
+    // s.position = v_position;
+    s.normal = v_normal;
+    s.emissive = vec3(0.0, 0.0, 0.0);
+    s.roughness = 0.8;
+    s.metallic = 0.6;
+    s.occlusion = 1.0;
+
+    vec4 color = CCStandardShading(s);
+    return CCFragOutput(color);
+}

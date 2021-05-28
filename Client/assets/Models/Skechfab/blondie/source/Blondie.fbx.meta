@@ -1,0 +1,1287 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671",
+  "files": [],
+  "subMetas": {
+    "23673": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@23673",
+      "displayName": "",
+      "id": "23673",
+      "name": "base_color_texture-8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_EyeHighlight_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "42907": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@42907",
+      "displayName": "",
+      "id": "42907",
+      "name": "F00_000_HairBack_00_HAIR.material",
+      "userData": {
+        "gltfIndex": 14
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49505": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@49505",
+      "displayName": "",
+      "id": "49505",
+      "name": "F00_000_Hair_00_HAIR_01.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57442": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@57442",
+      "displayName": "",
+      "id": "57442",
+      "name": "F00_000_Hair_00_HAIR_02.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "72439": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@72439",
+      "displayName": "",
+      "id": "72439",
+      "name": "F00_000_00_FaceEyelash_00_FACE.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "90896": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@90896",
+      "displayName": "",
+      "id": "90896",
+      "name": "base_color_texture-4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceEyeline_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0687f": {
+      "importer": "gltf-mesh",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@0687f",
+      "displayName": "",
+      "id": "0687f",
+      "name": "Body_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 92
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e49e": {
+      "importer": "gltf-embeded-image",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@5e49e",
+      "displayName": "",
+      "id": "5e49e",
+      "name": "base_color_texture-0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0a1ef": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@0a1ef",
+      "displayName": "",
+      "id": "0a1ef",
+      "name": "base_color_texture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "401a91b8-fca4-42f3-ab9b-23695d325671@5e49e"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05da8": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@05da8",
+      "displayName": "",
+      "id": "05da8",
+      "name": "base_color_texture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_Hair_00_02.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8518": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@b8518",
+      "displayName": "",
+      "id": "b8518",
+      "name": "base_color_texture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceMouth_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "97b5c": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@97b5c",
+      "displayName": "",
+      "id": "97b5c",
+      "name": "base_color_texture-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_EyeWhite_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9e7e2": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@9e7e2",
+      "displayName": "",
+      "id": "9e7e2",
+      "name": "base_color_texture-5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceEyelash_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c47df": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@c47df",
+      "displayName": "",
+      "id": "c47df",
+      "name": "base_color_texture-6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceBrow_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "413eb": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@413eb",
+      "displayName": "",
+      "id": "413eb",
+      "name": "base_color_texture-7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_EyeIris_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e76d9": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@e76d9",
+      "displayName": "",
+      "id": "e76d9",
+      "name": "base_color_texture-9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_Face_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "afeef": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@afeef",
+      "displayName": "",
+      "id": "afeef",
+      "name": "base_color_texture-10.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_00_EyeExtra_01.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d710d": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@d710d",
+      "displayName": "",
+      "id": "d710d",
+      "name": "base_color_texture-11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_002_Body_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dcebe": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@dcebe",
+      "displayName": "",
+      "id": "dcebe",
+      "name": "base_color_texture-12.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_006_01_Tops_01.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ba9d7": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@ba9d7",
+      "displayName": "",
+      "id": "ba9d7",
+      "name": "base_color_texture-13.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_005_01_Shoes_01.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0ff6f": {
+      "importer": "texture",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@0ff6f",
+      "displayName": "",
+      "id": "0ff6f",
+      "name": "base_color_texture-14.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/blondie/textures/F00_000_HairBack_00.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9079a": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@9079a",
+      "displayName": "",
+      "id": "9079a",
+      "name": "F00_000_00_FaceMouth_00_FACE.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "570e9": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@570e9",
+      "displayName": "",
+      "id": "570e9",
+      "name": "F00_000_00_EyeWhite_00_EYE.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4698f": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@4698f",
+      "displayName": "",
+      "id": "4698f",
+      "name": "F00_000_00_FaceEyeline_00_FACE.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "955cc": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@955cc",
+      "displayName": "",
+      "id": "955cc",
+      "name": "F00_000_00_FaceBrow_00_FACE.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "645f3": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@645f3",
+      "displayName": "",
+      "id": "645f3",
+      "name": "F00_000_00_EyeIris_00_EYE.material",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05ad2": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@05ad2",
+      "displayName": "",
+      "id": "05ad2",
+      "name": "F00_000_00_EyeHighlight_00_EYE.material",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae9f3": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@ae9f3",
+      "displayName": "",
+      "id": "ae9f3",
+      "name": "F00_000_00_Face_00_SKIN.material",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09aa9": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@09aa9",
+      "displayName": "",
+      "id": "09aa9",
+      "name": "F00_000_00_EyeExtra_01_EYE.material",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c287": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@9c287",
+      "displayName": "",
+      "id": "9c287",
+      "name": "F00_002_02_Body_00_SKIN.material",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b5949": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@b5949",
+      "displayName": "",
+      "id": "b5949",
+      "name": "F00_006_01_Tops_01_CLOTH.material",
+      "userData": {
+        "gltfIndex": 12
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9872e": {
+      "importer": "gltf-material",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@9872e",
+      "displayName": "",
+      "id": "9872e",
+      "name": "F00_005_01_Shoes_01_CLOTH.material",
+      "userData": {
+        "gltfIndex": 13
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4c6db": {
+      "importer": "gltf-scene",
+      "uuid": "401a91b8-fca4-42f3-ab9b-23695d325671@4c6db",
+      "displayName": "",
+      "id": "4c6db",
+      "name": "Blondie.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "401a91b8-fca4-42f3-ab9b-23695d325671@5e49e"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_Hair_00_02.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceMouth_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_EyeWhite_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceEyeline_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceEyelash_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_FaceBrow_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_EyeIris_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_EyeHighlight_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_Face_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_00_EyeExtra_01.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_002_Body_00.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_006_01_Tops_01.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_005_01_Shoes_01.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/blondie/textures/F00_000_HairBack_00.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "401a91b8-fca4-42f3-ab9b-23695d325671@4c6db",
+    "assetFinder": {
+      "meshes": [
+        "401a91b8-fca4-42f3-ab9b-23695d325671@0687f"
+      ],
+      "skeletons": [
+        "401a91b8-fca4-42f3-ab9b-23695d325671@438fe"
+      ],
+      "textures": [
+        "401a91b8-fca4-42f3-ab9b-23695d325671@0a1ef",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@05da8",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@b8518",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@97b5c",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@90896",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@9e7e2",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@c47df",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@413eb",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@23673",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@e76d9",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@afeef",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@d710d",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@dcebe",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@ba9d7",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@0ff6f"
+      ],
+      "materials": [
+        "401a91b8-fca4-42f3-ab9b-23695d325671@49505",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@57442",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@9079a",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@570e9",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@4698f",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@72439",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@955cc",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@645f3",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@05ad2",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@ae9f3",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@09aa9",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@9c287",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@b5949",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@9872e",
+        "401a91b8-fca4-42f3-ab9b-23695d325671@42907"
+      ],
+      "scenes": [
+        "401a91b8-fca4-42f3-ab9b-23695d325671@4c6db"
+      ]
+    },
+    "info": {
+      "nodes": [
+        {
+          "name": "Armature",
+          "children": [
+            1
+          ]
+        },
+        {
+          "name": "Hips",
+          "children": [
+            2,
+            6,
+            10
+          ]
+        },
+        {
+          "name": "Right leg",
+          "children": [
+            3
+          ]
+        },
+        {
+          "name": "Right knee",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "Right ankle",
+          "children": [
+            5
+          ]
+        },
+        {
+          "name": "Right toe",
+          "children": []
+        },
+        {
+          "name": "Left leg",
+          "children": [
+            7
+          ]
+        },
+        {
+          "name": "Left knee",
+          "children": [
+            8
+          ]
+        },
+        {
+          "name": "Left ankle",
+          "children": [
+            9
+          ]
+        },
+        {
+          "name": "Left toe",
+          "children": []
+        },
+        {
+          "name": "Spine",
+          "children": [
+            11
+          ]
+        },
+        {
+          "name": "Chest",
+          "children": [
+            12,
+            31,
+            50,
+            84,
+            86,
+            88,
+            89,
+            91
+          ]
+        },
+        {
+          "name": "Right shoulder",
+          "children": [
+            13
+          ]
+        },
+        {
+          "name": "Right arm",
+          "children": [
+            14
+          ]
+        },
+        {
+          "name": "Right elbow",
+          "children": [
+            15
+          ]
+        },
+        {
+          "name": "Right wrist",
+          "children": [
+            16,
+            19,
+            22,
+            25,
+            28
+          ]
+        },
+        {
+          "name": "Thumb0_R",
+          "children": [
+            17
+          ]
+        },
+        {
+          "name": "Thumb1_R",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "Thumb2_R",
+          "children": []
+        },
+        {
+          "name": "RingFinger1_R",
+          "children": [
+            20
+          ]
+        },
+        {
+          "name": "RingFinger2_R",
+          "children": [
+            21
+          ]
+        },
+        {
+          "name": "RingFinger3_R",
+          "children": []
+        },
+        {
+          "name": "MiddleFinger1_R",
+          "children": [
+            23
+          ]
+        },
+        {
+          "name": "MiddleFinger2_R",
+          "children": [
+            24
+          ]
+        },
+        {
+          "name": "MiddleFinger3_R",
+          "children": []
+        },
+        {
+          "name": "LittleFinger1_R",
+          "children": [
+            26
+          ]
+        },
+        {
+          "name": "LittleFinger2_R",
+          "children": [
+            27
+          ]
+        },
+        {
+          "name": "LittleFinger3_R",
+          "children": []
+        },
+        {
+          "name": "IndexFinger1_R",
+          "children": [
+            29
+          ]
+        },
+        {
+          "name": "IndexFinger2_R",
+          "children": [
+            30
+          ]
+        },
+        {
+          "name": "IndexFinger3_R",
+          "children": []
+        },
+        {
+          "name": "Left shoulder",
+          "children": [
+            32
+          ]
+        },
+        {
+          "name": "Left arm",
+          "children": [
+            33
+          ]
+        },
+        {
+          "name": "Left elbow",
+          "children": [
+            34
+          ]
+        },
+        {
+          "name": "Left wrist",
+          "children": [
+            35,
+            38,
+            41,
+            44,
+            47
+          ]
+        },
+        {
+          "name": "Thumb0_L",
+          "children": [
+            36
+          ]
+        },
+        {
+          "name": "Thumb1_L",
+          "children": [
+            37
+          ]
+        },
+        {
+          "name": "Thumb2_L",
+          "children": []
+        },
+        {
+          "name": "RingFinger1_L",
+          "children": [
+            39
+          ]
+        },
+        {
+          "name": "RingFinger2_L",
+          "children": [
+            40
+          ]
+        },
+        {
+          "name": "RingFinger3_L",
+          "children": []
+        },
+        {
+          "name": "MiddleFinger1_L",
+          "children": [
+            42
+          ]
+        },
+        {
+          "name": "MiddleFinger2_L",
+          "children": [
+            43
+          ]
+        },
+        {
+          "name": "MiddleFinger3_L",
+          "children": []
+        },
+        {
+          "name": "LittleFinger1_L",
+          "children": [
+            45
+          ]
+        },
+        {
+          "name": "LittleFinger2_L",
+          "children": [
+            46
+          ]
+        },
+        {
+          "name": "LittleFinger3_L",
+          "children": []
+        },
+        {
+          "name": "IndexFinger1_L",
+          "children": [
+            48
+          ]
+        },
+        {
+          "name": "IndexFinger2_L",
+          "children": [
+            49
+          ]
+        },
+        {
+          "name": "IndexFinger3_L",
+          "children": []
+        },
+        {
+          "name": "Neck",
+          "children": [
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83
+          ]
+        },
+        {
+          "name": "Head",
+          "children": []
+        },
+        {
+          "name": "HairJoint_e9356468_a496_4b6f_b576_dc4a5b963d4d",
+          "children": []
+        },
+        {
+          "name": "HairJoint_a3d11577_b757_46db_8937_6176fcaa4e65",
+          "children": []
+        },
+        {
+          "name": "HairJoint_6d9c818f_ed94_4f17_a332_09e58964f5de",
+          "children": []
+        },
+        {
+          "name": "HairJoint_7ff5fb53_379e_4c21_8550_d8cdd9897c75",
+          "children": []
+        },
+        {
+          "name": "HairJoint_39978425_d125_4c40_8806_32f61b76cdc5",
+          "children": []
+        },
+        {
+          "name": "HairJoint_47328f54_5b10_4eed_86a0_664ba54b2fad",
+          "children": []
+        },
+        {
+          "name": "HairJoint_098820b3_4aa3_48c9_94a4_2c89e3d2ac8b",
+          "children": []
+        },
+        {
+          "name": "HairJoint_97d2c5b4_4bf5_4777_8502_0a7d5b5d1e97",
+          "children": []
+        },
+        {
+          "name": "HairJoint_13e01abf_f503_4a07_a66f_e746d3276851",
+          "children": []
+        },
+        {
+          "name": "HairJoint_1ab438c8_7662_4380_9858_23f300f6c595",
+          "children": []
+        },
+        {
+          "name": "HairJoint_92a4c79d_a4ef_4650_87e3_545a0fb44ae4",
+          "children": []
+        },
+        {
+          "name": "HairJoint_753e682b_3480_43d0_b85d_71fbb4429587",
+          "children": []
+        },
+        {
+          "name": "HairJoint_0436323a_45d9_4b3f_9caf_8c613e7ab228",
+          "children": []
+        },
+        {
+          "name": "HairJoint_140a6dba_15a2_4230_8f22_928cebc7e306",
+          "children": []
+        },
+        {
+          "name": "HairJoint_5b7d4f8d_4a41_452f_b278_3e04ef74d159",
+          "children": []
+        },
+        {
+          "name": "HairJoint_31f3a8c7_c08e_4c02_9b56_d3e8688f2fba",
+          "children": []
+        },
+        {
+          "name": "HairJoint_7c3e840e_e897_4444_9f28_c78b33eaa6d6",
+          "children": []
+        },
+        {
+          "name": "HairJoint_bc1e78e1_423f_4bc9_8559_699bb36fd4d5",
+          "children": []
+        },
+        {
+          "name": "HairJoint_1275757f_6fe5_4d78_be03_7138f9d26007",
+          "children": []
+        },
+        {
+          "name": "HairJoint_74486861_7fd4_4229_a39c_53391b427112",
+          "children": []
+        },
+        {
+          "name": "HairJoint_6d601c59_2c9b_428e_ac14_a6d790c24324",
+          "children": []
+        },
+        {
+          "name": "HairJoint_0db13061_2c8b_4731_b8fe_864e6080e928",
+          "children": []
+        },
+        {
+          "name": "HairJoint_3e473c0c_8279_48c2_89f4_1210d66869f9",
+          "children": []
+        },
+        {
+          "name": "HairJoint_051a7dfd_721e_44bf_9ceb_3b2117bf45c1",
+          "children": []
+        },
+        {
+          "name": "HairJoint_f24a30fb_6c62_40b1_b06f_0e969332fc96",
+          "children": []
+        },
+        {
+          "name": "HairJoint_6346d9ad_cf3d_482c_b671_f83145042ac7",
+          "children": []
+        },
+        {
+          "name": "HairJoint_c35bc030_3da3_4d49_ab7c_4aabeedc2de1",
+          "children": []
+        },
+        {
+          "name": "HairJoint_900f4eb5_ad8f_49c8_a862_358f11add7c6",
+          "children": []
+        },
+        {
+          "name": "HairJoint_a04788eb_7a77_4b6e_95a1_3f403354b3fc",
+          "children": []
+        },
+        {
+          "name": "HairJoint_535acb8b_04f1_4807_8564_bcde390e8d9d",
+          "children": []
+        },
+        {
+          "name": "Eye_R",
+          "children": []
+        },
+        {
+          "name": "Eye_L",
+          "children": []
+        },
+        {
+          "name": "J_Sec_R_HoodString1",
+          "children": [
+            85
+          ]
+        },
+        {
+          "name": "J_Sec_R_HoodString2",
+          "children": []
+        },
+        {
+          "name": "J_Sec_L_HoodString1",
+          "children": [
+            87
+          ]
+        },
+        {
+          "name": "J_Sec_L_HoodString2",
+          "children": []
+        },
+        {
+          "name": "J_Sec_C_Hood",
+          "children": []
+        },
+        {
+          "name": "Breast_R",
+          "children": [
+            90
+          ]
+        },
+        {
+          "name": "J_Sec_R_Bust2",
+          "children": []
+        },
+        {
+          "name": "Breast_L",
+          "children": [
+            92
+          ]
+        },
+        {
+          "name": "J_Sec_L_Bust2",
+          "children": []
+        },
+        {
+          "name": "Body",
+          "children": []
+        }
+      ]
+    }
+  }
+}

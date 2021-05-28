@@ -1,0 +1,131 @@
+{
+  "ver": "2.0.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "805c4135-a922-4454-9d34-47a29a385699",
+  "files": [],
+  "subMetas": {
+    "bcca5": {
+      "importer": "gltf-mesh",
+      "uuid": "805c4135-a922-4454-9d34-47a29a385699@bcca5",
+      "displayName": "",
+      "id": "bcca5",
+      "name": "UnnamedMesh.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "805c4135-a922-4454-9d34-47a29a385699@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Buildings/textures/palette_baseColor.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d19c3": {
+      "importer": "gltf-material",
+      "uuid": "805c4135-a922-4454-9d34-47a29a385699@d19c3",
+      "displayName": "",
+      "id": "d19c3",
+      "name": "palette.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "805c4135-a922-4454-9d34-47a29a385699@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "db://assets/Models/Buildings/textures/palette_baseColor.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "redirect": "805c4135-a922-4454-9d34-47a29a385699@d1932",
+    "assetFinder": {
+      "meshes": [
+        "805c4135-a922-4454-9d34-47a29a385699@bcca5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "805c4135-a922-4454-9d34-47a29a385699@e39f7"
+      ],
+      "materials": [
+        "805c4135-a922-4454-9d34-47a29a385699@d19c3"
+      ],
+      "scenes": [
+        "805c4135-a922-4454-9d34-47a29a385699@d1932"
+      ]
+    },
+    "info": {
+      "nodes": [
+        {
+          "name": "RootNode (gltf orientation matrix)",
+          "children": [
+            1
+          ]
+        },
+        {
+          "name": "RootNode (model correction matrix)",
+          "children": [
+            2
+          ]
+        },
+        {
+          "name": "house2.obj.cleaner.gles",
+          "children": [
+            3
+          ]
+        },
+        {
+          "name": "(__autogen 0)",
+          "children": []
+        }
+      ]
+    }
+  }
+}

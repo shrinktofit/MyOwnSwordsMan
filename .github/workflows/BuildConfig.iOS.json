@@ -1,0 +1,67 @@
+{
+  "name": "Brave",
+  "platform": "ios",
+  "buildPath": "project://build",
+  "debug": true,
+  "md5Cache": false,
+  "sourceMaps": true,
+  "replaceSplashScreen": false,
+  "mainBundleCompressionType": "none",
+  "mainBundleIsRemote": false,
+  "mergeStartScene": false,
+  "experimentalEraseModules": false,
+  "compressTexture": true,
+  "packAutoAtlas": true,
+  "startScene": "fa48b060-98aa-4eed-a628-ea728d0b5d35",
+  "scenes": [
+    {
+      "url": "db://assets/Scenes/AnimationCompress.scene",
+      "uuid": "e5acb4d1-c723-4f5c-8534-e2da6914fc09"
+    },
+    {
+      "url": "db://assets/Scenes/Brave.scene",
+      "uuid": "fa48b060-98aa-4eed-a628-ea728d0b5d35"
+    },
+    {
+      "url": "db://assets/Scenes/Main.scene",
+      "uuid": "03bbfcb2-eaf5-446f-b6e1-f5bbde0e2897"
+    },
+    {
+      "url": "db://assets/Scenes/Retargeting.scene",
+      "uuid": "bd0f53c8-741d-4adf-b8af-e6c0a4a2f8d8"
+    }
+  ],
+  "outputName": "iOS",
+  "packages": {
+    "ios": {
+      "packageName": "com.cocos.test-cases-3dtest",
+      "orientation": {
+        "landscapeRight": true,
+        "landscapeLeft": true,
+        "portrait": false
+      },
+      "renderBackEnd": {
+        "metal": true,
+        "gles3": false
+      },
+      "__version__": "1.0.0"
+    },
+    "native": {
+      "polyfills": {
+        "asyncFunctions": false
+      },
+      "encrypted": false,
+      "xxteaKey": "07u04GotJENr9uu7",
+      "compressZip": false,
+      "makeAfterBuild": false,
+      "template": "link",
+      "__version__": "1.0.0"
+    },
+    "cocos-service": {
+      "configID": "baaf0b",
+      "services": [],
+      "__version__": "3.0.1"
+    }
+  },
+  "__version__": "1.2.8"
+}

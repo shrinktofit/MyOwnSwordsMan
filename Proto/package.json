@@ -1,0 +1,21 @@
+{
+  "name": "proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-proto": "node ./Scripts/Clear.mjs && npm run build-proto:pbjs && npm run build-proto:pbts",
+    "build-proto:pbjs": "pbjs --dependency protobufjs/minimal.js --target static-module --wrap commonjs --out ./Lib/proto.js ./Source/*.proto",
+    "build-proto:pbts": "pbts --main --out ./Lib/proto.d.ts ./Lib/*.js && node ./Scripts/WrapPbtsResult.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protobufjs": "^6.11.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.11",
+    "@types/node": "^15.0.2",
+    "fs-extra": "^10.0.0"
+  }
+}

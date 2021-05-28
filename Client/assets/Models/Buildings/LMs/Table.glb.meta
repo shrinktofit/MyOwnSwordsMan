@@ -1,0 +1,118 @@
+{
+  "ver": "2.0.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "4213af5f-4d9c-4203-a1b0-7b72af6a18bb",
+  "files": [],
+  "subMetas": {
+    "2f6d1": {
+      "importer": "gltf-mesh",
+      "uuid": "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@2f6d1",
+      "displayName": "",
+      "id": "2f6d1",
+      "name": "Cube.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "07d75": {
+      "importer": "gltf-mesh",
+      "uuid": "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@07d75",
+      "displayName": "",
+      "id": "07d75",
+      "name": "立方体.001.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4e6b": {
+      "importer": "gltf-material",
+      "uuid": "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@b4e6b",
+      "displayName": "",
+      "id": "b4e6b",
+      "name": "Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c3a0": {
+      "importer": "gltf-scene",
+      "uuid": "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@0c3a0",
+      "displayName": "",
+      "id": "0c3a0",
+      "name": "Table.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@0c3a0",
+    "assetFinder": {
+      "meshes": [
+        "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@2f6d1",
+        "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@07d75"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@b4e6b"
+      ],
+      "scenes": [
+        "4213af5f-4d9c-4203-a1b0-7b72af6a18bb@0c3a0"
+      ]
+    },
+    "info": {
+      "nodes": [
+        {
+          "name": "Cube",
+          "children": []
+        },
+        {
+          "name": "Light",
+          "children": []
+        },
+        {
+          "name": "Camera",
+          "children": []
+        },
+        {
+          "name": "立方体",
+          "children": []
+        },
+        {
+          "name": "Origin",
+          "children": []
+        }
+      ]
+    }
+  }
+}

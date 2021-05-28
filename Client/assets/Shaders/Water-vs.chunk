@@ -1,0 +1,91 @@
+// you can write GLSL code directly in here
+
+precision highp float;
+#include <input-standard>
+#include <cc-global>
+#include <cc-local-batch>
+
+#define iResolution cc_screenSize
+#define iTime cc_time.x
+#define iTimeDelta cc_time.y
+#define iFrame cc_time.z
+
+out vec2 v_uv;
+out vec3 v_position;
+out vec3 v_normal;
+
+struct SinWave {
+    float amplitude;
+    float length;
+    float speed;
+    vec2 direction;
+    float k;
+};
+
+vec3 evaluateWave(SinWave wave, vec2 position, float t) {
+    float freq = 2.0 * PI / wave.length;
+    float phase = freq * wave.speed;
+
+    float sinTerm = dot(wave.direction, position) * freq + t * phase;
+    float factor = (sin(sinTerm) + 1.0) / 2.0;
+
+    float w = 2.0 * wave.amplitude * pow(factor, wave.k);
+
+    float p = wave.k * freq * wave.amplitude * pow(factor, wave.k - 1.0) * cos(sinTerm);
+    float px = p * wave.direction.x;
+    float py = p * wave.direction.y;
+
+    return vec3(w, px, py);
+}
+
+vec4 vert() {
+    StandardVertInput In;
+    CCVertInput(In);
+
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+
+    vec2 positionXZ = In.position.xz;
+
+    SinWave waves[2];
+    {
+        SinWave wave;
+        wave.amplitude = 0.03;
+        wave.length = 1.0;
+        wave.speed = 0.5;
+        wave.direction = vec2(0.5, 0.7);
+        wave.k = 1.5;
+        waves[0] = wave;
+    }
+    {
+        SinWave wave;
+        wave.amplitude = 0.1;
+        wave.length = 2.0;
+        wave.speed = 0.3;
+        wave.direction = vec2(0.6, -0.9);
+        wave.k = 1.5;
+        waves[1] = wave;
+    }
+
+    float height = 0.0;
+    vec3 normal = vec3(0.0, 0.0, 0.0);
+    for (int i = 0; i < 2; ++i) {
+        vec3 waveArgs = evaluateWave(waves[i], positionXZ, cc_time.x);
+        height += waveArgs.x;
+        normal += vec3(-waveArgs.y, 1.0, -waveArgs.z);
+    }
+
+    vec3 position = vec3(positionXZ.x, height, positionXZ.y);
+
+    vec4 positionWorld4 = matWorld * vec4(position, 1.0);
+
+    vec4 pos = cc_matProj * cc_matView * positionWorld4;
+
+    v_position = positionWorld4.xyz;
+
+    v_normal = normalize((matWorldIT * vec4(normal, 0.0)).xyz);
+
+    v_uv = a_texCoord;
+
+    return pos;
+}

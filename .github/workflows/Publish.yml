@@ -1,0 +1,50 @@
+name: Publish
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Debug'
+        required: true
+        default: 'true'
+jobs:
+  publish:
+    runs-on: macOS-latest # runs a test on Ubuntu, Windows and macOS
+    steps:
+      - name: Setup repo
+        uses: actions/checkout@v2
+        
+      - uses: actions/cache@v2 # https://stackoverflow.com/questions/55110729/how-do-i-cache-steps-in-github-actions
+        id: cache-cocos-creator  # give it a name for checking the cache hit-or-not
+        with:
+          path: ./CocosCreator/  # what we cache: the folder
+          key: ${{ runner.os }}-cocos-creator-3.1.0-050808
+        
+      - name: Install Cocos Creator
+        if: steps.cache-cocos-creator.outputs.cache-hit != 'true'
+        shell: pwsh
+        run: |
+          $creatorPkgDownloadURL = "https://download.cocos.com/CocosCreator/v3.1.0/CocosCreator-v3.1.0-darwin-050808.zip"
+          $creatorPkgTarball = Join-Path "." "CocosCreator-3.1.0-050808.zip"
+          New-Item -Force -ItemType Directory -Path (Split-Path $creatorPkgTarball -Parent)
+          Invoke-WebRequest -Uri $creatorPkgDownloadURL -OutFile $creatorPkgTarball
+          $creatorPkgUnzippedPath = Join-Path "CocosCreator" "3.1.0-050808"
+          New-Item -Force -ItemType Directory -Path (Split-Path $creatorPkgUnzippedPath -Parent)
+          $creatorPkgUnzipped = $creatorPkgUnzippedPath
+          unzip $creatorPkgTarball -d $creatorPkgUnzipped
+
+      - name: Build
+        continue-on-error: true
+        shell: pwsh
+        run: |
+          $creatorExecutable = Join-Path "CocosCreator" "3.1.0-050808" "CocosCreator.app" "Contents" "MacOS" "CocosCreator"
+          $configFilePath = ".github/workflows/BuildConfig.iOS.json"
+          Write-Host "Use config file: $configFilePath"
+          Get-Item $configFilePath
+          $code = (& $creatorExecutable --project ./Client --build "configPath=$configFilePath")
+          Write-Host "Build process exited with code $code"
+        

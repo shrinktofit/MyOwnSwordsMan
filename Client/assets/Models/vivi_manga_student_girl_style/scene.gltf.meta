@@ -1,0 +1,1460 @@
+{
+  "ver": "2.0.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "04e233a8-2f52-4a21-b946-745c67e418df",
+  "files": [],
+  "subMetas": {
+    "49389": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@49389",
+      "displayName": "",
+      "id": "49389",
+      "name": "F00_001_01_Bottoms_01_CLOTH.material",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "49505": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@49505",
+      "displayName": "",
+      "id": "49505",
+      "name": "F00_000_Hair_00_HAIR_01.material",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "50743": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@50743",
+      "displayName": "",
+      "id": "50743",
+      "name": "UnnamedTexture-5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeWhite_00_EYE_emissive.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "55257": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@55257",
+      "displayName": "",
+      "id": "55257",
+      "name": "UnnamedTexture-12.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_Hair_00_HAIR_01_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57442": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@57442",
+      "displayName": "",
+      "id": "57442",
+      "name": "F00_000_Hair_00_HAIR_02.material",
+      "userData": {
+        "gltfIndex": 12
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "72439": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@72439",
+      "displayName": "",
+      "id": "72439",
+      "name": "F00_000_00_FaceEyelash_00_FACE.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84206": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@84206",
+      "displayName": "",
+      "id": "84206",
+      "name": "Hair001.001-15.mesh",
+      "userData": {
+        "gltfIndex": 15
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e9ed2": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@e9ed2",
+      "displayName": "",
+      "id": "e9ed2",
+      "name": "Face.001_0-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9670a": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@9670a",
+      "displayName": "",
+      "id": "9670a",
+      "name": "Face.001_1-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "532ad": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@532ad",
+      "displayName": "",
+      "id": "532ad",
+      "name": "Face.001_2-2.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7cff4": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@7cff4",
+      "displayName": "",
+      "id": "7cff4",
+      "name": "Face.001_3-3.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "463b0": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@463b0",
+      "displayName": "",
+      "id": "463b0",
+      "name": "Face.001_4-4.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a54d4": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@a54d4",
+      "displayName": "",
+      "id": "a54d4",
+      "name": "Face.001_5-5.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cdc18": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@cdc18",
+      "displayName": "",
+      "id": "cdc18",
+      "name": "Face.001_6-6.mesh",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f98a0": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@f98a0",
+      "displayName": "",
+      "id": "f98a0",
+      "name": "Face.001_7-7.mesh",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a0d01": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@a0d01",
+      "displayName": "",
+      "id": "a0d01",
+      "name": "Face.001_8-8.mesh",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "caf6c": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@caf6c",
+      "displayName": "",
+      "id": "caf6c",
+      "name": "Body.001-9.mesh",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d7801": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@d7801",
+      "displayName": "",
+      "id": "d7801",
+      "name": "Body.001-10.mesh",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "691a5": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@691a5",
+      "displayName": "",
+      "id": "691a5",
+      "name": "Body.001-11.mesh",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e6d4e": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@e6d4e",
+      "displayName": "",
+      "id": "e6d4e",
+      "name": "Body.001-12.mesh",
+      "userData": {
+        "gltfIndex": 12
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "976a0": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@976a0",
+      "displayName": "",
+      "id": "976a0",
+      "name": "Body.001-13.mesh",
+      "userData": {
+        "gltfIndex": 13
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eea59": {
+      "importer": "gltf-mesh",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@eea59",
+      "displayName": "",
+      "id": "eea59",
+      "name": "Hair001.001-14.mesh",
+      "userData": {
+        "gltfIndex": 14
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c2185": {
+      "importer": "gltf-animation",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@c2185",
+      "displayName": "",
+      "id": "c2185",
+      "name": "Armature|mixamo.com|Layer0.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.033330000936985016
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 66
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_FaceMouth_00_FACE_emissive.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_FaceEyelash_00_FACE_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeIris_00_EYE_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b633": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@9b633",
+      "displayName": "",
+      "id": "9b633",
+      "name": "UnnamedTexture-3.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeIris_00_EYE_emissive.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b782": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@9b782",
+      "displayName": "",
+      "id": "9b782",
+      "name": "UnnamedTexture-4.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_FaceEyeline_00_FACE_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "99ea5": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@99ea5",
+      "displayName": "",
+      "id": "99ea5",
+      "name": "UnnamedTexture-6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeHighlight_00_EYE_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "006bd": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@006bd",
+      "displayName": "",
+      "id": "006bd",
+      "name": "UnnamedTexture-7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeHighlight_00_EYE_emissive.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "531b0": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@531b0",
+      "displayName": "",
+      "id": "531b0",
+      "name": "UnnamedTexture-8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeExtra_01_EYE_emissive.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c3d2": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@9c3d2",
+      "displayName": "",
+      "id": "9c3d2",
+      "name": "UnnamedTexture-9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_001_01_Body_00_SKIN_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7e17": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@f7e17",
+      "displayName": "",
+      "id": "f7e17",
+      "name": "UnnamedTexture-10.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_001_01_Bottoms_01_CLOTH_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a2905": {
+      "importer": "texture",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@a2905",
+      "displayName": "",
+      "id": "a2905",
+      "name": "UnnamedTexture-11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_001_02_Tops_01_CLOTH_diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9079a": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@9079a",
+      "displayName": "",
+      "id": "9079a",
+      "name": "F00_000_00_FaceMouth_00_FACE.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "645f3": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@645f3",
+      "displayName": "",
+      "id": "645f3",
+      "name": "F00_000_00_EyeIris_00_EYE.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4698f": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@4698f",
+      "displayName": "",
+      "id": "4698f",
+      "name": "F00_000_00_FaceEyeline_00_FACE.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "570e9": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@570e9",
+      "displayName": "",
+      "id": "570e9",
+      "name": "F00_000_00_EyeWhite_00_EYE.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "05ad2": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@05ad2",
+      "displayName": "",
+      "id": "05ad2",
+      "name": "F00_000_00_EyeHighlight_00_EYE.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae9f3": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@ae9f3",
+      "displayName": "",
+      "id": "ae9f3",
+      "name": "F00_000_00_Face_00_SKIN.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09aa9": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@09aa9",
+      "displayName": "",
+      "id": "09aa9",
+      "name": "F00_000_00_EyeExtra_01_EYE.material",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "77c01": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@77c01",
+      "displayName": "",
+      "id": "77c01",
+      "name": "F00_001_01_Body_00_SKIN.material",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6b982": {
+      "importer": "gltf-material",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@6b982",
+      "displayName": "",
+      "id": "6b982",
+      "name": "F00_001_02_Tops_01_CLOTH.material",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "04e233a8-2f52-4a21-b946-745c67e418df@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_FaceMouth_00_FACE_emissive.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_FaceEyelash_00_FACE_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeIris_00_EYE_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeIris_00_EYE_emissive.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_FaceEyeline_00_FACE_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeWhite_00_EYE_emissive.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeHighlight_00_EYE_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeHighlight_00_EYE_emissive.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_00_EyeExtra_01_EYE_emissive.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_001_01_Body_00_SKIN_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_001_01_Bottoms_01_CLOTH_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_001_02_Tops_01_CLOTH_diffuse.png"
+      },
+      {
+        "uri": "db://assets/Models/vivi_manga_student_girl_style/textures/F00_000_Hair_00_HAIR_01_diffuse.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "duration": 0.033330000936985016,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Armature|mixamo.com|Layer0",
+            "from": 0,
+            "to": 0.033330000936985016,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "04e233a8-2f52-4a21-b946-745c67e418df@d1932",
+    "assetFinder": {
+      "meshes": [
+        "04e233a8-2f52-4a21-b946-745c67e418df@e9ed2",
+        "04e233a8-2f52-4a21-b946-745c67e418df@9670a",
+        "04e233a8-2f52-4a21-b946-745c67e418df@532ad",
+        "04e233a8-2f52-4a21-b946-745c67e418df@7cff4",
+        "04e233a8-2f52-4a21-b946-745c67e418df@463b0",
+        "04e233a8-2f52-4a21-b946-745c67e418df@a54d4",
+        "04e233a8-2f52-4a21-b946-745c67e418df@cdc18",
+        "04e233a8-2f52-4a21-b946-745c67e418df@f98a0",
+        "04e233a8-2f52-4a21-b946-745c67e418df@a0d01",
+        "04e233a8-2f52-4a21-b946-745c67e418df@caf6c",
+        "04e233a8-2f52-4a21-b946-745c67e418df@d7801",
+        "04e233a8-2f52-4a21-b946-745c67e418df@691a5",
+        "04e233a8-2f52-4a21-b946-745c67e418df@e6d4e",
+        "04e233a8-2f52-4a21-b946-745c67e418df@976a0",
+        "04e233a8-2f52-4a21-b946-745c67e418df@eea59",
+        "04e233a8-2f52-4a21-b946-745c67e418df@84206"
+      ],
+      "skeletons": [
+        "04e233a8-2f52-4a21-b946-745c67e418df@438fe"
+      ],
+      "textures": [
+        "04e233a8-2f52-4a21-b946-745c67e418df@3effa",
+        "04e233a8-2f52-4a21-b946-745c67e418df@221a5",
+        "04e233a8-2f52-4a21-b946-745c67e418df@0089c",
+        "04e233a8-2f52-4a21-b946-745c67e418df@9b633",
+        "04e233a8-2f52-4a21-b946-745c67e418df@9b782",
+        "04e233a8-2f52-4a21-b946-745c67e418df@50743",
+        "04e233a8-2f52-4a21-b946-745c67e418df@99ea5",
+        "04e233a8-2f52-4a21-b946-745c67e418df@006bd",
+        "04e233a8-2f52-4a21-b946-745c67e418df@531b0",
+        "04e233a8-2f52-4a21-b946-745c67e418df@9c3d2",
+        "04e233a8-2f52-4a21-b946-745c67e418df@f7e17",
+        "04e233a8-2f52-4a21-b946-745c67e418df@a2905",
+        "04e233a8-2f52-4a21-b946-745c67e418df@55257"
+      ],
+      "materials": [
+        "04e233a8-2f52-4a21-b946-745c67e418df@9079a",
+        "04e233a8-2f52-4a21-b946-745c67e418df@72439",
+        "04e233a8-2f52-4a21-b946-745c67e418df@645f3",
+        "04e233a8-2f52-4a21-b946-745c67e418df@4698f",
+        "04e233a8-2f52-4a21-b946-745c67e418df@570e9",
+        "04e233a8-2f52-4a21-b946-745c67e418df@05ad2",
+        "04e233a8-2f52-4a21-b946-745c67e418df@ae9f3",
+        "04e233a8-2f52-4a21-b946-745c67e418df@09aa9",
+        "04e233a8-2f52-4a21-b946-745c67e418df@77c01",
+        "04e233a8-2f52-4a21-b946-745c67e418df@49389",
+        "04e233a8-2f52-4a21-b946-745c67e418df@6b982",
+        "04e233a8-2f52-4a21-b946-745c67e418df@49505",
+        "04e233a8-2f52-4a21-b946-745c67e418df@57442"
+      ],
+      "scenes": [
+        "04e233a8-2f52-4a21-b946-745c67e418df@d1932"
+      ]
+    },
+    "info": {
+      "nodes": [
+        {
+          "name": "Sketchfab_model",
+          "children": [
+            1
+          ]
+        },
+        {
+          "name": "Root",
+          "children": [
+            2
+          ]
+        },
+        {
+          "name": "Armature",
+          "children": [
+            3,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            80,
+            81,
+            82,
+            83,
+            84,
+            86,
+            87,
+            69,
+            79,
+            85
+          ]
+        },
+        {
+          "name": "Armature_rootJoint",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "mixamorig:Hips_Armature",
+          "children": [
+            5,
+            59,
+            64
+          ]
+        },
+        {
+          "name": "mixamorig:Spine_Armature",
+          "children": [
+            6
+          ]
+        },
+        {
+          "name": "mixamorig:Spine1_Armature",
+          "children": [
+            7
+          ]
+        },
+        {
+          "name": "mixamorig:Spine2_Armature",
+          "children": [
+            8,
+            11,
+            35
+          ]
+        },
+        {
+          "name": "mixamorig:Neck_Armature",
+          "children": [
+            9
+          ]
+        },
+        {
+          "name": "mixamorig:Head_Armature",
+          "children": [
+            10
+          ]
+        },
+        {
+          "name": "mixamorig:HeadTop_End_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftShoulder_Armature",
+          "children": [
+            12
+          ]
+        },
+        {
+          "name": "mixamorig:LeftArm_Armature",
+          "children": [
+            13
+          ]
+        },
+        {
+          "name": "mixamorig:LeftForeArm_Armature",
+          "children": [
+            14
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHand_Armature",
+          "children": [
+            15,
+            19,
+            23,
+            27,
+            31
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb1_Armature",
+          "children": [
+            16
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb2_Armature",
+          "children": [
+            17
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb3_Armature",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandThumb4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandIndex1_Armature",
+          "children": [
+            20
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex2_Armature",
+          "children": [
+            21
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex3_Armature",
+          "children": [
+            22
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandIndex4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle1_Armature",
+          "children": [
+            24
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle2_Armature",
+          "children": [
+            25
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle3_Armature",
+          "children": [
+            26
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandMiddle4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandRing1_Armature",
+          "children": [
+            28
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing2_Armature",
+          "children": [
+            29
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing3_Armature",
+          "children": [
+            30
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandRing4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftHandPinky1_Armature",
+          "children": [
+            32
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky2_Armature",
+          "children": [
+            33
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky3_Armature",
+          "children": [
+            34
+          ]
+        },
+        {
+          "name": "mixamorig:LeftHandPinky4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightShoulder_Armature",
+          "children": [
+            36
+          ]
+        },
+        {
+          "name": "mixamorig:RightArm_Armature",
+          "children": [
+            37
+          ]
+        },
+        {
+          "name": "mixamorig:RightForeArm_Armature",
+          "children": [
+            38
+          ]
+        },
+        {
+          "name": "mixamorig:RightHand_Armature",
+          "children": [
+            39,
+            43,
+            47,
+            51,
+            55
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb1_Armature",
+          "children": [
+            40
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb2_Armature",
+          "children": [
+            41
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb3_Armature",
+          "children": [
+            42
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandThumb4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandIndex1_Armature",
+          "children": [
+            44
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex2_Armature",
+          "children": [
+            45
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex3_Armature",
+          "children": [
+            46
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandIndex4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandMiddle1_Armature",
+          "children": [
+            48
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle2_Armature",
+          "children": [
+            49
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle3_Armature",
+          "children": [
+            50
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandMiddle4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandRing1_Armature",
+          "children": [
+            52
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing2_Armature",
+          "children": [
+            53
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing3_Armature",
+          "children": [
+            54
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandRing4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightHandPinky1_Armature",
+          "children": [
+            56
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky2_Armature",
+          "children": [
+            57
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky3_Armature",
+          "children": [
+            58
+          ]
+        },
+        {
+          "name": "mixamorig:RightHandPinky4_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:LeftUpLeg_Armature",
+          "children": [
+            60
+          ]
+        },
+        {
+          "name": "mixamorig:LeftLeg_Armature",
+          "children": [
+            61
+          ]
+        },
+        {
+          "name": "mixamorig:LeftFoot_Armature",
+          "children": [
+            62
+          ]
+        },
+        {
+          "name": "mixamorig:LeftToeBase_Armature",
+          "children": [
+            63
+          ]
+        },
+        {
+          "name": "mixamorig:LeftToe_End_Armature",
+          "children": []
+        },
+        {
+          "name": "mixamorig:RightUpLeg_Armature",
+          "children": [
+            65
+          ]
+        },
+        {
+          "name": "mixamorig:RightLeg_Armature",
+          "children": [
+            66
+          ]
+        },
+        {
+          "name": "mixamorig:RightFoot_Armature",
+          "children": [
+            67
+          ]
+        },
+        {
+          "name": "mixamorig:RightToeBase_Armature",
+          "children": [
+            68
+          ]
+        },
+        {
+          "name": "mixamorig:RightToe_End_Armature",
+          "children": []
+        },
+        {
+          "name": "Face.001",
+          "children": []
+        },
+        {
+          "name": "Face.001_0",
+          "children": []
+        },
+        {
+          "name": "Face.001_1",
+          "children": []
+        },
+        {
+          "name": "Face.001_2",
+          "children": []
+        },
+        {
+          "name": "Face.001_3",
+          "children": []
+        },
+        {
+          "name": "Face.001_4",
+          "children": []
+        },
+        {
+          "name": "Face.001_5",
+          "children": []
+        },
+        {
+          "name": "Face.001_6",
+          "children": []
+        },
+        {
+          "name": "Face.001_7",
+          "children": []
+        },
+        {
+          "name": "Face.001_8",
+          "children": []
+        },
+        {
+          "name": "Body.001",
+          "children": []
+        },
+        {
+          "name": "Body.001_0",
+          "children": []
+        },
+        {
+          "name": "Body.001_1",
+          "children": []
+        },
+        {
+          "name": "Body.001_2",
+          "children": []
+        },
+        {
+          "name": "Body.001_3",
+          "children": []
+        },
+        {
+          "name": "Body.001_4",
+          "children": []
+        },
+        {
+          "name": "Hair001.001",
+          "children": []
+        },
+        {
+          "name": "Hair001.001_0",
+          "children": []
+        },
+        {
+          "name": "Hair001.001_1",
+          "children": []
+        }
+      ]
+    }
+  }
+}
