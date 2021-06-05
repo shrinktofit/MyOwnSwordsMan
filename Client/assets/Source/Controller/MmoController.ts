@@ -57,7 +57,7 @@ export class MmoController extends cc.Component {
             }
         }
 
-        const rotationQuantity = (this._keyPressed.a ? 1 : 0) + (this._keyPressed.d ? -1 : 0);
+        const rotationQuantity = (this._keyPressed[cc.macro.KEY.a] ? 1 : 0) + (this._keyPressed[cc.macro.KEY.d] ? -1 : 0);
         if (rotationQuantity) {
             const rotationDelta = this.rotationSpeed * deltaTime * rotationQuantity;
             const up = cc.math.Vec3.UNIT_Y;
@@ -67,49 +67,45 @@ export class MmoController extends cc.Component {
         }
 
         const velocity = new cc.math.Vec3();
-        if (this._keyPressed.w) {
+        if (this._keyPressed[cc.macro.KEY.w]) {
             cc.math.Vec3.add(velocity, velocity, cc.math.Vec3.UNIT_Z);
         }
-        if (this._keyPressed.s) {
+        if (this._keyPressed[cc.macro.KEY.s]) {
             cc.math.Vec3.add(velocity, velocity, NEG_UNIT_Z);
         }
-        if (this._keyPressed.q) {
+        if (this._keyPressed[cc.macro.KEY.q]) {
             cc.math.Vec3.add(velocity, velocity, cc.math.Vec3.UNIT_X);
         }
-        if (this._keyPressed.e) {
+        if (this._keyPressed[cc.macro.KEY.e]) {
             cc.math.Vec3.add(velocity, velocity, NEG_UNIT_X);
         }
-        cc.math.Vec3.multiplyScalar(velocity, velocity, this.moveSpeed);
+        const speedFactor = this._keyPressed[cc.macro.KEY.shift] ? 2.0 : 1.0;
+        cc.math.Vec3.multiplyScalar(velocity, velocity, this.moveSpeed * speedFactor);
         cc.math.Vec3.transformQuat(velocity, velocity, this.node.rotation);
         this.characterStatus.velocity = velocity;
     }
 
     private _keyPressed = {
-        w: false,
-        a: false,
-        s: false,
-        d: false,
-        q: false,
-        e: false,
+        [cc.macro.KEY.w]: false,
+        [cc.macro.KEY.a]: false,
+        [cc.macro.KEY.s]: false,
+        [cc.macro.KEY.d]: false,
+        [cc.macro.KEY.q]: false,
+        [cc.macro.KEY.e]: false,
+        [cc.macro.KEY.shift]: false,
     };
 
     private _onKeyDown (event: cc.EventKeyboard) {
-        const keyName = keyCodeToKeyName(event.keyCode);
-        if (!keyName) {
-            return;
-        }
-        if (keyName in this._keyPressed) {
-            this._keyPressed[keyName] = true;
+        const { keyCode } = event;
+        if (keyCode in this._keyPressed) {
+            this._keyPressed[keyCode] = true;
         }
     }
 
     private _onKeyUp (event: cc.EventKeyboard) {
-        const keyName = keyCodeToKeyName(event.keyCode);
-        if (!keyName) {
-            return;
-        }
-        if (keyName in this._keyPressed) {
-            this._keyPressed[keyName] = false;
+        const { keyCode } = event;
+        if (keyCode in this._keyPressed) {
+            this._keyPressed[keyCode] = false;
         }
     }
 }
@@ -119,15 +115,3 @@ type KeyStatusTable = MmoController['_keyPressed'];
 const NEG_UNIT_X = cc.math.Vec3.negate(new cc.math.Vec3(), cc.math.Vec3.UNIT_X);
 const NEG_UNIT_Y = cc.math.Vec3.negate(new cc.math.Vec3(), cc.math.Vec3.UNIT_Y);
 const NEG_UNIT_Z = cc.math.Vec3.negate(new cc.math.Vec3(), cc.math.Vec3.UNIT_Z);
-
-function keyCodeToKeyName(keyCode: number): keyof KeyStatusTable | '' {
-    const MAP = {
-        [cc.macro.KEY.w]: 'w',
-        [cc.macro.KEY.a]: 'a',
-        [cc.macro.KEY.s]: 's',
-        [cc.macro.KEY.d]: 'd',
-        [cc.macro.KEY.q]: 'q',
-        [cc.macro.KEY.e]: 'e',
-    } as const;
-    return keyCode in MAP ? MAP[keyCode] : '';
-}

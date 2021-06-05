@@ -36,6 +36,6 @@
     "hasAlpha": false,
     "type": "texture",
     "redirect": "69e832be-6eb7-45e9-bdc7-50670ba2ecf0@6c48a",
-    "flipVertical": true
+    "flipVertical": false
   }
 }

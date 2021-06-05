@@ -1,0 +1,142 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Xmas-Item-Idle",
+  "_objFlags": 0,
+  "_native": "",
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 2,
+  "events": [],
+  "enableTrsBlending": false,
+  "_duration": 4,
+  "_keys": [
+    [],
+    [
+      0,
+      2,
+      4
+    ],
+    [],
+    [
+      1.0333333333333334,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1.0333333333333334,
+      2,
+      3,
+      4
+    ],
+    [
+      1.0333333333333334,
+      2,
+      3,
+      4
+    ]
+  ],
+  "_stepness": 0,
+  "_curves": [
+    {
+      "modifiers": [
+        "x"
+      ],
+      "data": {
+        "keys": 0,
+        "values": [],
+        "easingMethods": {}
+      },
+      "commonTarget": 0
+    },
+    {
+      "modifiers": [
+        "y"
+      ],
+      "data": {
+        "keys": 1,
+        "values": [
+          0,
+          0.233,
+          0
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 0
+    },
+    {
+      "modifiers": [
+        "z"
+      ],
+      "data": {
+        "keys": 2,
+        "values": [],
+        "easingMethods": {}
+      },
+      "commonTarget": 0
+    },
+    {
+      "modifiers": [
+        "x"
+      ],
+      "data": {
+        "keys": 3,
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 1
+    },
+    {
+      "modifiers": [
+        "y"
+      ],
+      "data": {
+        "keys": 4,
+        "values": [
+          0,
+          90,
+          180,
+          270,
+          360
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 1
+    },
+    {
+      "modifiers": [
+        "z"
+      ],
+      "data": {
+        "keys": 5,
+        "values": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "easingMethods": {}
+      },
+      "commonTarget": 1
+    }
+  ],
+  "_commonTargets": [
+    {
+      "modifiers": [
+        "position"
+      ]
+    },
+    {
+      "modifiers": [
+        "eulerAngles"
+      ]
+    }
+  ],
+  "_hash": 2728162055
+}
