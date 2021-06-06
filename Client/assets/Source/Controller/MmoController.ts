@@ -57,7 +57,23 @@ export class MmoController extends cc.Component {
             }
         }
 
-        const rotationQuantity = (this._keyPressed[cc.macro.KEY.a] ? 1 : 0) + (this._keyPressed[cc.macro.KEY.d] ? -1 : 0);
+        const {
+            [cc.macro.KEY.w]: keyW,
+            [cc.macro.KEY.s]: keyS,
+            [cc.macro.KEY.q]: keyQ,
+            [cc.macro.KEY.e]: keyE,
+            [cc.macro.KEY.a]: keyA,
+            [cc.macro.KEY.d]: keyD,
+        } = this._keyPressed;
+
+        let rotationQuantity= 0.0;
+        if (keyA.pressingMode === KeyPressingMode.PRESSING) {
+            rotationQuantity += 1.0;
+        }
+        if (keyD.pressingMode === KeyPressingMode.PRESSING) {
+            rotationQuantity += -1.0;
+        }
+
         if (rotationQuantity) {
             const rotationDelta = this.rotationSpeed * deltaTime * rotationQuantity;
             const up = cc.math.Vec3.UNIT_Y;
@@ -66,46 +82,68 @@ export class MmoController extends cc.Component {
             this.node.rotation = rotation;
         }
 
+        const pressingFactor = 1.0;
+        const doublePressingFactor = 6.0;
+
         const velocity = new cc.math.Vec3();
-        if (this._keyPressed[cc.macro.KEY.w]) {
-            cc.math.Vec3.add(velocity, velocity, cc.math.Vec3.UNIT_Z);
+        if (keyW.pressingMode === KeyPressingMode.PRESSING ||
+            keyW.pressingMode === KeyPressingMode.DOUBLE_PRESSING) {
+            cc.math.Vec3.scaleAndAdd(
+                velocity, velocity,
+                cc.math.Vec3.UNIT_Z,
+                keyW.pressingMode === KeyPressingMode.PRESSING ? pressingFactor : doublePressingFactor,
+            );
         }
-        if (this._keyPressed[cc.macro.KEY.s]) {
-            cc.math.Vec3.add(velocity, velocity, NEG_UNIT_Z);
+        if (keyS.pressingMode === KeyPressingMode.PRESSING ||
+            keyS.pressingMode === KeyPressingMode.DOUBLE_PRESSING) {
+            cc.math.Vec3.scaleAndAdd(
+                velocity, velocity,
+                NEG_UNIT_Z,
+                keyS.pressingMode === KeyPressingMode.PRESSING ? pressingFactor : doublePressingFactor,
+            );
         }
-        if (this._keyPressed[cc.macro.KEY.q]) {
-            cc.math.Vec3.add(velocity, velocity, cc.math.Vec3.UNIT_X);
+        if (keyQ.pressingMode === KeyPressingMode.PRESSING ||
+            keyQ.pressingMode === KeyPressingMode.DOUBLE_PRESSING) {
+            cc.math.Vec3.scaleAndAdd(
+                velocity, velocity,
+                cc.math.Vec3.UNIT_Z,
+                keyQ.pressingMode === KeyPressingMode.PRESSING ? pressingFactor : doublePressingFactor,
+            );
         }
-        if (this._keyPressed[cc.macro.KEY.e]) {
-            cc.math.Vec3.add(velocity, velocity, NEG_UNIT_X);
+        if (keyE.pressingMode === KeyPressingMode.PRESSING ||
+            keyE.pressingMode === KeyPressingMode.DOUBLE_PRESSING) {
+            cc.math.Vec3.scaleAndAdd(
+                velocity, velocity,
+                NEG_UNIT_Z,
+                keyE.pressingMode === KeyPressingMode.PRESSING ? pressingFactor : doublePressingFactor,
+            );
         }
-        const speedFactor = this._keyPressed[cc.macro.KEY.shift] ? 2.0 : 1.0;
-        cc.math.Vec3.multiplyScalar(velocity, velocity, this.moveSpeed * speedFactor);
+        cc.math.Vec3.multiplyScalar(velocity, velocity, this.moveSpeed);
         cc.math.Vec3.transformQuat(velocity, velocity, this.node.rotation);
         this.characterStatus.velocity = velocity;
     }
 
     private _keyPressed = {
-        [cc.macro.KEY.w]: false,
-        [cc.macro.KEY.a]: false,
-        [cc.macro.KEY.s]: false,
-        [cc.macro.KEY.d]: false,
-        [cc.macro.KEY.q]: false,
-        [cc.macro.KEY.e]: false,
-        [cc.macro.KEY.shift]: false,
+        [cc.macro.KEY.w]: new KeyStatus(),
+        [cc.macro.KEY.a]: new KeyStatus(),
+        [cc.macro.KEY.s]: new KeyStatus(),
+        [cc.macro.KEY.d]: new KeyStatus(),
+        [cc.macro.KEY.q]: new KeyStatus(),
+        [cc.macro.KEY.e]: new KeyStatus(),
+        [cc.macro.KEY.shift]: new KeyStatus(),
     };
 
     private _onKeyDown (event: cc.EventKeyboard) {
         const { keyCode } = event;
         if (keyCode in this._keyPressed) {
-            this._keyPressed[keyCode] = true;
+            this._keyPressed[keyCode].press();
         }
     }
 
     private _onKeyUp (event: cc.EventKeyboard) {
         const { keyCode } = event;
         if (keyCode in this._keyPressed) {
-            this._keyPressed[keyCode] = false;
+            this._keyPressed[keyCode].release();
         }
     }
 }
@@ -115,3 +153,44 @@ type KeyStatusTable = MmoController['_keyPressed'];
 const NEG_UNIT_X = cc.math.Vec3.negate(new cc.math.Vec3(), cc.math.Vec3.UNIT_X);
 const NEG_UNIT_Y = cc.math.Vec3.negate(new cc.math.Vec3(), cc.math.Vec3.UNIT_Y);
 const NEG_UNIT_Z = cc.math.Vec3.negate(new cc.math.Vec3(), cc.math.Vec3.UNIT_Z);
+
+class KeyStatus {
+    get pressingMode () {
+        return this._pressingMode;
+    }
+
+    public press () {
+        switch (this._pressingMode) {
+            default:
+            case KeyPressingMode.DOUBLE_PRESSING:
+                break;
+            case KeyPressingMode.PRESSING:
+            case KeyPressingMode.RELEASING: {
+                const now = performance.now();
+                if (this._pressingMode === KeyPressingMode.RELEASING) {
+                    this._pressingMode = KeyPressingMode.PRESSING;
+                } else {
+                    const interval = now - this._pressedTime;
+                    if (interval < 100) {
+                        this._pressingMode = KeyPressingMode.DOUBLE_PRESSING;
+                    }
+                }
+                this._pressedTime = now;
+                break;
+            }
+        }
+    }
+
+    public release () {
+        this._pressingMode = KeyPressingMode.RELEASING;
+    }
+
+    private _pressingMode = KeyPressingMode.RELEASING;
+    private _pressedTime = 0.0;
+}
+
+enum KeyPressingMode {
+    RELEASING,
+    PRESSING,
+    DOUBLE_PRESSING,
+}

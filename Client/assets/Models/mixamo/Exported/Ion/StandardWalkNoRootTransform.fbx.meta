@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a53d953d-52aa-47b9-9aee-62222b4d88e6",
+  "files": [],
+  "subMetas": {
+    "dc888": {
+      "importer": "gltf-animation",
+      "uuid": "a53d953d-52aa-47b9-9aee-62222b4d88e6@dc888",
+      "displayName": "",
+      "id": "dc888",
+      "name": "Walking.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.125
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5fd1b": {
+      "importer": "gltf-scene",
+      "uuid": "a53d953d-52aa-47b9-9aee-62222b4d88e6@5fd1b",
+      "displayName": "",
+      "id": "5fd1b",
+      "name": "StandardWalkNoRootTransform.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "Take 001",
+        "duration": 1.125,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Walking",
+            "from": 0,
+            "to": 1.125,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "a53d953d-52aa-47b9-9aee-62222b4d88e6@5fd1b",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "a53d953d-52aa-47b9-9aee-62222b4d88e6@5fd1b"
+      ]
+    }
+  }
+}
