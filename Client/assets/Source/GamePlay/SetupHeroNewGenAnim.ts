@@ -47,7 +47,7 @@ export class SetupHeroNewGenAnim extends cc.Component {
     private _setupMovementGraph (graph: cc.animation.PoseSubgraph) {
         const movementBlending = new cc.animation.PoseBlend1D();
         // Bind speed variable to param
-        cc.animation.bindProperty(movementBlending, 'param', GRAPH_VAR_NAME_SPEED);
+        movementBlending.bindProperty('param', GRAPH_VAR_NAME_SPEED);
         // Default speed
         movementBlending.param = 0.0;
         // Children
