@@ -225,6 +225,14 @@
         "116623a8-0ede-4064-ae1e-158a124ff54d@d5ab6"
       ]
     },
-    "depthWriteInAlphaModeBlend": true
+    "depthWriteInAlphaModeBlend": true,
+    "info": {
+      "nodes": [
+        {
+          "name": "pCube4",
+          "children": []
+        }
+      ]
+    }
   }
 }
