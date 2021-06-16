@@ -1,0 +1,59 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "b42ea782-28d4-46ab-b981-a6c80cafd192",
+  "files": [],
+  "subMetas": {
+    "17280": {
+      "importer": "gltf-scene",
+      "uuid": "b42ea782-28d4-46ab-b981-a6c80cafd192@17280",
+      "displayName": "",
+      "id": "17280",
+      "name": "GrassGround.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8a2d": {
+      "importer": "gltf-mesh",
+      "uuid": "b42ea782-28d4-46ab-b981-a6c80cafd192@b8a2d",
+      "displayName": "",
+      "id": "b8a2d",
+      "name": "Plane001.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "redirect": "b42ea782-28d4-46ab-b981-a6c80cafd192@17280",
+    "assetFinder": {
+      "meshes": [
+        "b42ea782-28d4-46ab-b981-a6c80cafd192@b8a2d"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "b42ea782-28d4-46ab-b981-a6c80cafd192@17280"
+      ]
+    },
+    "dumpMaterials": false
+  }
+}

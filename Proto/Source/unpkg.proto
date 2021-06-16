@@ -3,3 +3,14 @@ syntax = "proto2";
 message Foo {
     required int32 foo = 1;
 }
+
+message Vec3 {
+    required float x = 1;
+    required float y = 2;
+    required float z = 3;
+}
+
+message Move {
+    required int32 charId = 1;
+    required Vec3 translation = 2;
+}
