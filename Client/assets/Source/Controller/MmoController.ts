@@ -20,13 +20,13 @@ export class MmoController extends cc.Component {
     public joystick: Joystick | null = null;
 
     public start () {
-        cc.systemEvent.on(cc.SystemEventType.KEY_DOWN, this._onKeyDown, this);
-        cc.systemEvent.on(cc.SystemEventType.KEY_UP, this._onKeyUp, this);
+        cc.systemEvent.on(cc.SystemEvent.KeyboardEvent.KEY_DOWN, this._onKeyDown, this);
+        cc.systemEvent.on(cc.SystemEvent.KeyboardEvent.KEY_UP, this._onKeyUp, this);
     }
 
     public onDestroy () {
-        cc.systemEvent.off(cc.SystemEventType.KEY_DOWN, this._onKeyDown, this);
-        cc.systemEvent.off(cc.SystemEventType.TOUCH_MOVE, this._onKeyUp, this);
+        cc.systemEvent.off(cc.SystemEvent.KeyboardEvent.KEY_DOWN, this._onKeyDown, this);
+        cc.systemEvent.off(cc.SystemEvent.KeyboardEvent.KEY_UP, this._onKeyUp, this);
     }
 
     public update (deltaTime: number) {
@@ -58,12 +58,12 @@ export class MmoController extends cc.Component {
         }
 
         const {
-            [cc.macro.KEY.w]: keyW,
-            [cc.macro.KEY.s]: keyS,
-            [cc.macro.KEY.q]: keyQ,
-            [cc.macro.KEY.e]: keyE,
-            [cc.macro.KEY.a]: keyA,
-            [cc.macro.KEY.d]: keyD,
+            [cc.SystemEvent.KeyCode.KEY_W]: keyW,
+            [cc.SystemEvent.KeyCode.KEY_S]: keyS,
+            [cc.SystemEvent.KeyCode.KEY_Q]: keyQ,
+            [cc.SystemEvent.KeyCode.KEY_E]: keyE,
+            [cc.SystemEvent.KeyCode.KEY_A]: keyA,
+            [cc.SystemEvent.KeyCode.KEY_D]: keyD,
         } = this._keyPressed;
 
         let rotationQuantity= 0.0;
@@ -124,13 +124,13 @@ export class MmoController extends cc.Component {
     }
 
     private _keyPressed = {
-        [cc.macro.KEY.w]: new KeyStatus(),
-        [cc.macro.KEY.a]: new KeyStatus(),
-        [cc.macro.KEY.s]: new KeyStatus(),
-        [cc.macro.KEY.d]: new KeyStatus(),
-        [cc.macro.KEY.q]: new KeyStatus(),
-        [cc.macro.KEY.e]: new KeyStatus(),
-        [cc.macro.KEY.shift]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.KEY_W]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.KEY_A]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.KEY_S]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.KEY_D]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.KEY_Q]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.KEY_E]: new KeyStatus(),
+        [cc.SystemEvent.KeyCode.SHIFT_LEFT]: new KeyStatus(),
     };
 
     private _onKeyDown (event: cc.EventKeyboard) {
@@ -163,17 +163,15 @@ class KeyStatus {
         switch (this._pressingMode) {
             default:
             case KeyPressingMode.DOUBLE_PRESSING:
-                break;
             case KeyPressingMode.PRESSING:
+                break;
             case KeyPressingMode.RELEASING: {
                 const now = performance.now();
-                if (this._pressingMode === KeyPressingMode.RELEASING) {
+                const interval = now - this._pressedTime;
+                if (interval > 100) {
                     this._pressingMode = KeyPressingMode.PRESSING;
                 } else {
-                    const interval = now - this._pressedTime;
-                    if (interval < 100) {
-                        this._pressingMode = KeyPressingMode.DOUBLE_PRESSING;
-                    }
+                    this._pressingMode = KeyPressingMode.DOUBLE_PRESSING;
                 }
                 this._pressedTime = now;
                 break;
@@ -183,6 +181,7 @@ class KeyStatus {
 
     public release () {
         this._pressingMode = KeyPressingMode.RELEASING;
+        this._pressedTime = performance.now();
     }
 
     private _pressingMode = KeyPressingMode.RELEASING;

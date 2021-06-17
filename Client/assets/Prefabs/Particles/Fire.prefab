@@ -78,10 +78,10 @@
     },
     "_lrot": {
       "__type__": "cc.Quat",
-      "x": 0,
+      "x": 0.7071067690849304,
       "y": 0,
       "z": 0,
-      "w": 1
+      "w": 0.7071067690849304
     },
     "_lscale": {
       "__type__": "cc.Vec3",
@@ -92,7 +92,7 @@
     "_layer": 1073741824,
     "_euler": {
       "__type__": "cc.Vec3",
-      "x": 0,
+      "x": 90,
       "y": 0,
       "z": 0
     },
@@ -110,7 +110,10 @@
       "__id__": 4
     },
     "_materials": [
-      null,
+      {
+        "__uuid__": "0db38c85-9b91-4522-9316-a16ac6bdd90c",
+        "__expectedType__": "cc.Material"
+      },
       null
     ],
     "_visFlags": 0,
@@ -665,7 +668,9 @@
       "__id__": 59
     },
     "_space": 0,
-    "_particleSystem": null
+    "_particleSystem": {
+      "__id__": 3
+    }
   },
   {
     "__type__": "cc.CurveRange",

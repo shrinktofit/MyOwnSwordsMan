@@ -43,13 +43,13 @@ export class FirstPersonCamera extends cc.Component {
         this._rotateHorizon(this.initialHorizonRotation);
         this._rotateVertical(this.initialVerticalRotation);
         this._updatePosition();
-        cc.systemEvent.on(cc.SystemEventType.MOUSE_DOWN, this._onMouseDown, this);
-        cc.systemEvent.on(cc.SystemEventType.MOUSE_MOVE, this._onMouseMove, this);
-        cc.systemEvent.on(cc.SystemEventType.MOUSE_UP, this._onMouseUp, this);
-        cc.systemEvent.on(cc.SystemEventType.MOUSE_WHEEL, this._onMouseWheel, this);
-        cc.systemEvent.on(cc.SystemEventType.TOUCH_START, this._onTouchBegin, this);
-        cc.systemEvent.on(cc.SystemEventType.TOUCH_MOVE, this._onTouchMove, this);
-        cc.systemEvent.on(cc.SystemEventType.TOUCH_END, this._onTouchEnd, this);
+        cc.systemEvent.on(cc.SystemEvent.MouseEvent.MOUSE_DOWN, this._onMouseDown, this);
+        cc.systemEvent.on(cc.SystemEvent.MouseEvent.MOUSE_MOVE, this._onMouseMove, this);
+        cc.systemEvent.on(cc.SystemEvent.MouseEvent.MOUSE_UP, this._onMouseUp, this);
+        cc.systemEvent.on(cc.SystemEvent.MouseEvent.MOUSE_WHEEL, this._onMouseWheel, this);
+        cc.systemEvent.on(cc.SystemEvent.TouchEvent.TOUCH_START, this._onTouchBegin, this);
+        cc.systemEvent.on(cc.SystemEvent.TouchEvent.TOUCH_MOVE, this._onTouchMove, this);
+        cc.systemEvent.on(cc.SystemEvent.TouchEvent.TOUCH_END, this._onTouchEnd, this);
     }
 
     public onDestroy () {
