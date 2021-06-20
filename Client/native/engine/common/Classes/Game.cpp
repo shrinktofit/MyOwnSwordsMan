@@ -63,7 +63,7 @@ bool Game::init() {
     jsb_run_script("main.js");
 
     se->addAfterCleanupHook([]() {
-        JSBClassType::destroy();
+        JSBClassType::cleanup();
     });
 
 #if (CC_PLATFORM == CC_PLATFORM_MAC_IOS)

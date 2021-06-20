@@ -128,6 +128,7 @@ void AppDelegage::start()
 
    
     _game->onResume();
+    bool close = false;
 
     while (!_quit)
     {
@@ -135,7 +136,7 @@ void AppDelegage::start()
         
         resume = false;
         pause = false;
-        while (_view->pollEvent(&_quit, &resume, &pause)) {}
+        while (_view->pollEvent(&_quit, &resume, &pause, &close)) {}
 
         if(pause) _game->onPause();
         if(resume) _game->onResume();
