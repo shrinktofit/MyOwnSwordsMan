@@ -7,5 +7,6 @@
   },
   "dependencies": {
     "protobufjs": "^6.11.2"
-  }
+  },
+  "version": "3.3.0"
 }

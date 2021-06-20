@@ -54,6 +54,14 @@
         "b42ea782-28d4-46ab-b981-a6c80cafd192@17280"
       ]
     },
-    "dumpMaterials": false
+    "dumpMaterials": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "Plane001",
+          "children": []
+        }
+      ]
+    }
   }
 }

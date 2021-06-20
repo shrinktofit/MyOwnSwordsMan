@@ -60,17 +60,17 @@
         "__id__": 291
       },
       {
-        "__id__": 299
+        "__id__": 301
       }
     ],
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 301
+      "__id__": 303
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 304
+      "__id__": 306
     },
     "_id": "fa48b060-98aa-4eed-a628-ea728d0b5d35"
   },
@@ -1013,7 +1013,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 281.17154811715477,
+    "_orthoHeight": 209.2075471698113,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -4527,6 +4527,9 @@
       },
       {
         "__id__": 298
+      },
+      {
+        "__id__": 299
       }
     ],
     "removedComponents": []
@@ -4594,6 +4597,22 @@
     }
   },
   {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 300
+    },
+    "propertyPath": [
+      "_isTrigger"
+    ],
+    "value": false
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "c6CentegVGJL6gH5nRt9pJ"
+    ]
+  },
+  {
     "__type__": "cc.Node",
     "_name": "BGM",
     "_objFlags": 0,
@@ -4604,7 +4623,7 @@
     "_active": true,
     "_components": [
       {
-        "__id__": 300
+        "__id__": 302
       }
     ],
     "_prefab": null,
@@ -4641,7 +4660,7 @@
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 299
+      "__id__": 301
     },
     "_enabled": true,
     "__prefab": null,
@@ -4659,7 +4678,7 @@
     "fileId": "",
     "targetOverrides": [
       {
-        "__id__": 302
+        "__id__": 304
       }
     ]
   },
@@ -4676,7 +4695,7 @@
       "__id__": 50
     },
     "targetInfo": {
-      "__id__": 303
+      "__id__": 305
     }
   },
   {
@@ -4688,16 +4707,16 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 305
-    },
-    "shadows": {
-      "__id__": 306
-    },
-    "_skybox": {
       "__id__": 307
     },
-    "fog": {
+    "shadows": {
       "__id__": 308
+    },
+    "_skybox": {
+      "__id__": 309
+    },
+    "fog": {
+      "__id__": 310
     }
   },
   {
@@ -4762,7 +4781,7 @@
     },
     "_isRGBE": false,
     "_enabled": true,
-    "_useIBL": false
+    "_useIBL": true
   },
   {
     "__type__": "cc.FogInfo",
@@ -4777,7 +4796,7 @@
     "_enabled": false,
     "_fogDensity": 0.3,
     "_fogStart": 10,
-    "_fogEnd": 1000,
+    "_fogEnd": 100000,
     "_fogAtten": 5,
     "_fogTop": 1.5,
     "_fogRange": 1.2
