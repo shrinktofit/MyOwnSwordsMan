@@ -62,6 +62,23 @@ export class SetupHeroNewGenAnim extends cc.Component {
         graph.connect(graph.entryNode, movementPoseNode);
     }
 
+    private _setupIdleGraph (graph: cc.animation.PoseSubgraph) {
+        // https://blog.unity.com/technology/shiny-new-animation-features-in-unity-5-0
+        const { entryNode, existNode } = graph;
+
+        const idles = [
+            createPoseNodeFromClip(graph, this._getClip('Idle')),
+            createPoseNodeFromClip(graph, this._getClip('Bored')),
+            createPoseNodeFromClip(graph, this._getClip('Standing W_Briefcase Idle')),
+            createPoseNodeFromClip(graph, this._getClip('Soccer Idle')),
+        ];
+
+        for (const node of idles) {
+            const enterTransition = graph.connect(entryNode, node);
+            graph.connect(node, existNode);
+        }
+    }
+
     private _getClip (name: string) {
         const clip = this.clips.find((clip) => clip.name === name);
         if (!clip) {
@@ -69,6 +86,12 @@ export class SetupHeroNewGenAnim extends cc.Component {
         }
         return clip;
     }
+}
+
+function createPoseNodeFromClip (graph: cc.animation.PoseSubgraph, clip: cc.AnimationClip) {
+    const node = graph.add();
+    node.pose = createPoseFromClip(clip);
+    return node;
 }
 
 function createPoseFromClip (clip: cc.AnimationClip) {

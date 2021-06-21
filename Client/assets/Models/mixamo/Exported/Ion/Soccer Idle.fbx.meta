@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c0a3d559-9518-4710-87ea-5fc9714bfd92",
+  "files": [],
+  "subMetas": {
+    "23eb3": {
+      "importer": "gltf-animation",
+      "uuid": "c0a3d559-9518-4710-87ea-5fc9714bfd92@23eb3",
+      "displayName": "",
+      "id": "23eb3",
+      "name": "Soccer Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 6.166666507720947
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e9d5b": {
+      "importer": "gltf-scene",
+      "uuid": "c0a3d559-9518-4710-87ea-5fc9714bfd92@e9d5b",
+      "displayName": "",
+      "id": "e9d5b",
+      "name": "Soccer Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 6.166666507720947,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Soccer Idle",
+            "from": 0,
+            "to": 6.166666507720947,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "c0a3d559-9518-4710-87ea-5fc9714bfd92@e9d5b",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "c0a3d559-9518-4710-87ea-5fc9714bfd92@e9d5b"
+      ]
+    }
+  }
+}

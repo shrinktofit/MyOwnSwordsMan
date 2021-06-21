@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "22200d8f-5b8c-4e8e-8a01-68b1f8826b70",
+  "files": [],
+  "subMetas": {
+    "243b0": {
+      "importer": "gltf-animation",
+      "uuid": "22200d8f-5b8c-4e8e-8a01-68b1f8826b70@243b0",
+      "displayName": "",
+      "id": "243b0",
+      "name": "Bored.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 10.625
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "00d2b": {
+      "importer": "gltf-scene",
+      "uuid": "22200d8f-5b8c-4e8e-8a01-68b1f8826b70@00d2b",
+      "displayName": "",
+      "id": "00d2b",
+      "name": "Bored.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 10.625,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Bored",
+            "from": 0,
+            "to": 10.625,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "22200d8f-5b8c-4e8e-8a01-68b1f8826b70@00d2b",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "22200d8f-5b8c-4e8e-8a01-68b1f8826b70@00d2b"
+      ]
+    }
+  }
+}

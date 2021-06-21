@@ -37,10 +37,71 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "91c13": {
+      "importer": "gltf-embeded-image",
+      "uuid": "b42ea782-28d4-46ab-b981-a6c80cafd192@91c13",
+      "displayName": "",
+      "id": "91c13",
+      "name": "贴图 #0.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3efb2": {
+      "importer": "texture",
+      "uuid": "b42ea782-28d4-46ab-b981-a6c80cafd192@3efb2",
+      "displayName": "",
+      "id": "3efb2",
+      "name": "贴图 #0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b42ea782-28d4-46ab-b981-a6c80cafd192@91c13"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d093": {
+      "importer": "gltf-material",
+      "uuid": "b42ea782-28d4-46ab-b981-a6c80cafd192@9d093",
+      "displayName": "",
+      "id": "9d093",
+      "name": "Material #25.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
-    "imageMetas": [],
+    "imageMetas": [
+      {
+        "name": "贴图 #0",
+        "uri": "b42ea782-28d4-46ab-b981-a6c80cafd192@91c13"
+      }
+    ],
     "legacyFbxImporter": false,
     "redirect": "b42ea782-28d4-46ab-b981-a6c80cafd192@17280",
     "assetFinder": {
@@ -48,8 +109,12 @@
         "b42ea782-28d4-46ab-b981-a6c80cafd192@b8a2d"
       ],
       "skeletons": [],
-      "textures": [],
-      "materials": [],
+      "textures": [
+        "b42ea782-28d4-46ab-b981-a6c80cafd192@3efb2"
+      ],
+      "materials": [
+        "b42ea782-28d4-46ab-b981-a6c80cafd192@9d093"
+      ],
       "scenes": [
         "b42ea782-28d4-46ab-b981-a6c80cafd192@17280"
       ]

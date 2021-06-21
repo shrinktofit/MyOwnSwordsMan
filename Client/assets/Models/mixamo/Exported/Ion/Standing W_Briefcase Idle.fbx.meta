@@ -1,0 +1,78 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "baec52f7-43a3-4d69-87b5-25e6c27841c5",
+  "files": [],
+  "subMetas": {
+    "321a9": {
+      "importer": "gltf-animation",
+      "uuid": "baec52f7-43a3-4d69-87b5-25e6c27841c5@321a9",
+      "displayName": "",
+      "id": "321a9",
+      "name": "Standing W_Briefcase Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 14.291666984558105
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "989df": {
+      "importer": "gltf-scene",
+      "uuid": "baec52f7-43a3-4d69-87b5-25e6c27841c5@989df",
+      "displayName": "",
+      "id": "989df",
+      "name": "Standing W_Briefcase Idle.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "animationImportSettings": [
+      {
+        "name": "mixamo.com",
+        "duration": 14.291666984558105,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Standing W_Briefcase Idle",
+            "from": 0,
+            "to": 14.291666984558105,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "baec52f7-43a3-4d69-87b5-25e6c27841c5@989df",
+    "assetFinder": {
+      "meshes": [],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "baec52f7-43a3-4d69-87b5-25e6c27841c5@989df"
+      ]
+    }
+  }
+}
