@@ -4,6 +4,8 @@ import { CharacterStatus } from './CharacterStatus';
 
 const GRAPH_VAR_NAME_SPEED = 'speed';
 
+const GRAPH_VAR_IDLE_RANDOM = 'idleRandom';
+
 @cc._decorator.ccclass
 export class SetupHeroNewGenAnim extends cc.Component {
     @cc._decorator.property([cc.AnimationClip])
@@ -32,6 +34,7 @@ export class SetupHeroNewGenAnim extends cc.Component {
         const poseGraph = new cc.animation.PoseGraph();
 
         poseGraph.addVariable(GRAPH_VAR_NAME_SPEED, 0.0);
+        poseGraph.addVariable(GRAPH_VAR_IDLE_RANDOM, 0.0);
 
         const mainLayer = poseGraph.addLayer();
         this._setupMainLayer(mainLayer);
@@ -41,7 +44,22 @@ export class SetupHeroNewGenAnim extends cc.Component {
 
     private _setupMainLayer (layer: cc.animation.Layer) {
         const mainLayerEntryGraph = layer.graph;
-        this._setupMovementGraph(mainLayerEntryGraph);
+        layer.graph.name = `MainLayerGraph`;
+        this._setupMainGraph(mainLayerEntryGraph);
+    }
+
+    private _setupMainGraph (graph: cc.animation.PoseSubgraph) {
+        const idleGraph = graph.addSubgraph();
+        idleGraph.name = `IdleSubgraph`;
+        this._setupIdleGraph(idleGraph);
+
+        const movementGraph = graph.addSubgraph();
+        movementGraph.name = `MovementSubgraph`;
+        this._setupMovementGraph(movementGraph);
+
+        const idleSelfTransition = graph.connect(idleGraph, idleGraph);
+
+        graph.connect(graph.entryNode, idleGraph);
     }
 
     private _setupMovementGraph (graph: cc.animation.PoseSubgraph) {
@@ -64,18 +82,24 @@ export class SetupHeroNewGenAnim extends cc.Component {
 
     private _setupIdleGraph (graph: cc.animation.PoseSubgraph) {
         // https://blog.unity.com/technology/shiny-new-animation-features-in-unity-5-0
-        const { entryNode, existNode } = graph;
+        const { entryNode, exitNode } = graph;
 
-        const idles = [
-            createPoseNodeFromClip(graph, this._getClip('Idle')),
-            createPoseNodeFromClip(graph, this._getClip('Bored')),
-            createPoseNodeFromClip(graph, this._getClip('Standing W_Briefcase Idle')),
-            createPoseNodeFromClip(graph, this._getClip('Soccer Idle')),
+        const idles: [cc.animation.PoseNode, number][] = [
+            [createPoseNodeFromClip(graph, this._getClip('Idle')), 0.3],
+            [createPoseNodeFromClip(graph, this._getClip('Bored')), 0.5],
+            [createPoseNodeFromClip(graph, this._getClip('Standing W_Briefcase Idle')), 0.7],
+            [createPoseNodeFromClip(graph, this._getClip('Soccer Idle')), 1.0],
         ];
 
-        for (const node of idles) {
+        for (const [node, randomThreshold] of idles) {
             const enterTransition = graph.connect(entryNode, node);
-            graph.connect(node, existNode);
+            const enterCondition = enterTransition.condition = new cc.animation.Condition();
+            enterCondition.bindProperty('lhs', GRAPH_VAR_IDLE_RANDOM);
+            enterCondition.operator = cc.animation.Condition.Operator.LESS_THAN;
+            enterCondition.rhs = randomThreshold;
+
+            const exitTransition = graph.connect(node, exitNode);
+            exitTransition.exitCondition = 1.0;
         }
     }
 
@@ -90,6 +114,7 @@ export class SetupHeroNewGenAnim extends cc.Component {
 
 function createPoseNodeFromClip (graph: cc.animation.PoseSubgraph, clip: cc.AnimationClip) {
     const node = graph.add();
+    node.name = clip.name;
     node.pose = createPoseFromClip(clip);
     return node;
 }

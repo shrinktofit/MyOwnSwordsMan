@@ -587,6 +587,18 @@
       {
         "__uuid__": "86f644df-724d-464f-b48d-7c12089fa3da@b84cf",
         "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "baec52f7-43a3-4d69-87b5-25e6c27841c5@321a9",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "c0a3d559-9518-4710-87ea-5fc9714bfd92@23eb3",
+        "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "22200d8f-5b8c-4e8e-8a01-68b1f8826b70@243b0",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
     "characterStatus": {
@@ -1013,7 +1025,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 209.2075471698113,
+    "_orthoHeight": 207,
     "_near": 1,
     "_far": 2000,
     "_color": {
