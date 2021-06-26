@@ -1,0 +1,1039 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2",
+  "files": [],
+  "subMetas": {
+    "33532": {
+      "importer": "gltf-mesh",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@33532",
+      "displayName": "",
+      "id": "33532",
+      "name": "Cylinder.007.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61335": {
+      "importer": "gltf-embeded-image",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@61335",
+      "displayName": "",
+      "id": "61335",
+      "name": "贴图 #30.image",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "88446": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@88446",
+      "displayName": "",
+      "id": "88446",
+      "name": "Trees.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94003": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@94003",
+      "displayName": "",
+      "id": "94003",
+      "name": "Props1.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "825ed": {
+      "importer": "gltf-mesh",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@825ed",
+      "displayName": "",
+      "id": "825ed",
+      "name": "Sphere.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f5b6e": {
+      "importer": "gltf-mesh",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@f5b6e",
+      "displayName": "",
+      "id": "f5b6e",
+      "name": "Cylinder.451.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f59f6": {
+      "importer": "gltf-mesh",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@f59f6",
+      "displayName": "",
+      "id": "f59f6",
+      "name": "All_house_Material0.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "067bd": {
+      "importer": "gltf-mesh",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@067bd",
+      "displayName": "",
+      "id": "067bd",
+      "name": "Circle.000_Material0.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6fcb4": {
+      "importer": "gltf-embeded-image",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@6fcb4",
+      "displayName": "",
+      "id": "6fcb4",
+      "name": "贴图 #24.image",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0f924": {
+      "importer": "gltf-embeded-image",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@0f924",
+      "displayName": "",
+      "id": "0f924",
+      "name": "贴图 #32.image",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "23fa5": {
+      "importer": "gltf-embeded-image",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@23fa5",
+      "displayName": "",
+      "id": "23fa5",
+      "name": "贴图 #34.image",
+      "userData": {
+        "gltfIndex": 14
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6cdd3": {
+      "importer": "gltf-embeded-image",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@6cdd3",
+      "displayName": "",
+      "id": "6cdd3",
+      "name": "贴图 #26.image",
+      "userData": {
+        "gltfIndex": 18
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1dadb": {
+      "importer": "gltf-embeded-image",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@1dadb",
+      "displayName": "",
+      "id": "1dadb",
+      "name": "贴图 #28.image",
+      "userData": {
+        "gltfIndex": 22
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f04b5": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@f04b5",
+      "displayName": "",
+      "id": "f04b5",
+      "name": "贴图 #36.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/ENVI2.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bc797": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@bc797",
+      "displayName": "",
+      "id": "bc797",
+      "name": "贴图 #8.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/NEW_Trees_color.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5ad75": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@5ad75",
+      "displayName": "",
+      "id": "5ad75",
+      "name": "贴图 #9.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/NEW_Trees_roughness.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fe05c": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@fe05c",
+      "displayName": "",
+      "id": "fe05c",
+      "name": "贴图 #24.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "263e895b-d266-4586-8647-a4ae4fba4da2@6fcb4"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "778e7": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@778e7",
+      "displayName": "",
+      "id": "778e7",
+      "name": "贴图 #11.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/WoodNotPainted_Base_Color.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f79d": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@5f79d",
+      "displayName": "",
+      "id": "5f79d",
+      "name": "贴图 #12.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/WoodNotPainted_Roughness.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "448b6": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@448b6",
+      "displayName": "",
+      "id": "448b6",
+      "name": "贴图 #30.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "263e895b-d266-4586-8647-a4ae4fba4da2@61335"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eb794": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@eb794",
+      "displayName": "",
+      "id": "eb794",
+      "name": "贴图 #5.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/Furniture_Base_Color.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4b8d7": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@4b8d7",
+      "displayName": "",
+      "id": "4b8d7",
+      "name": "贴图 #7.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/Furniture_Roughness.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "291d4": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@291d4",
+      "displayName": "",
+      "id": "291d4",
+      "name": "贴图 #6.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/Furniture_Metallic.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b41ab": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@b41ab",
+      "displayName": "",
+      "id": "b41ab",
+      "name": "贴图 #32.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "263e895b-d266-4586-8647-a4ae4fba4da2@0f924"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7c0f3": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@7c0f3",
+      "displayName": "",
+      "id": "7c0f3",
+      "name": "贴图 #19.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/PropsAtlas1_color_extra.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4d9b": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@a4d9b",
+      "displayName": "",
+      "id": "a4d9b",
+      "name": "贴图 #21.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/PropsAtlas1_Roughness.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cb93c": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@cb93c",
+      "displayName": "",
+      "id": "cb93c",
+      "name": "贴图 #20.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/PropsAtlas1_metall.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c26db": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@c26db",
+      "displayName": "",
+      "id": "c26db",
+      "name": "贴图 #34.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "263e895b-d266-4586-8647-a4ae4fba4da2@23fa5"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "baf1c": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@baf1c",
+      "displayName": "",
+      "id": "baf1c",
+      "name": "贴图 #13.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/WoodPainted_Diffuse.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "36f89": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@36f89",
+      "displayName": "",
+      "id": "36f89",
+      "name": "贴图 #14.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/roof_Color.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5d474": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@5d474",
+      "displayName": "",
+      "id": "5d474",
+      "name": "贴图 #15.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/roof_normal_tangent_Roughness.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1638": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@f1638",
+      "displayName": "",
+      "id": "f1638",
+      "name": "贴图 #26.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "263e895b-d266-4586-8647-a4ae4fba4da2@6cdd3"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3dbff": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@3dbff",
+      "displayName": "",
+      "id": "3dbff",
+      "name": "贴图 #16.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/RopesGlass_Color.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2816c": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@2816c",
+      "displayName": "",
+      "id": "2816c",
+      "name": "贴图 #18.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/RopesGlass_Roughness.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b61b": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@5b61b",
+      "displayName": "",
+      "id": "5b61b",
+      "name": "贴图 #17.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/tree-house/textures/RopesGlass_Metallic.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d7de2": {
+      "importer": "texture",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@d7de2",
+      "displayName": "",
+      "id": "d7de2",
+      "name": "贴图 #28.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "263e895b-d266-4586-8647-a4ae4fba4da2@1dadb"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ed30": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@7ed30",
+      "displayName": "",
+      "id": "7ed30",
+      "name": "Envi.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4698": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@f4698",
+      "displayName": "",
+      "id": "f4698",
+      "name": "Painted_wood-NOT.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2be88": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@2be88",
+      "displayName": "",
+      "id": "2be88",
+      "name": "Furniture.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8de30": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@8de30",
+      "displayName": "",
+      "id": "8de30",
+      "name": "Painted_wood.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65a2f": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@65a2f",
+      "displayName": "",
+      "id": "65a2f",
+      "name": "Roofus.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1d39c": {
+      "importer": "gltf-material",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@1d39c",
+      "displayName": "",
+      "id": "1d39c",
+      "name": "Ropes_and_glass.material",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1bc03": {
+      "importer": "gltf-scene",
+      "uuid": "263e895b-d266-4586-8647-a4ae4fba4da2@1bc03",
+      "displayName": "",
+      "id": "1bc03",
+      "name": "tree-house.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "贴图 #36",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/ENVI2.png"
+      },
+      {
+        "name": "贴图 #8",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/NEW_Trees_color.png"
+      },
+      {
+        "name": "贴图 #9",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/NEW_Trees_roughness.png"
+      },
+      {
+        "name": "贴图 #24",
+        "uri": "263e895b-d266-4586-8647-a4ae4fba4da2@6fcb4"
+      },
+      {
+        "name": "贴图 #11",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/WoodNotPainted_Base_Color.png"
+      },
+      {
+        "name": "贴图 #12",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/WoodNotPainted_Roughness.png"
+      },
+      {
+        "name": "贴图 #30",
+        "uri": "263e895b-d266-4586-8647-a4ae4fba4da2@61335"
+      },
+      {
+        "name": "贴图 #5",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/Furniture_Base_Color.png"
+      },
+      {
+        "name": "贴图 #7",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/Furniture_Roughness.png"
+      },
+      {
+        "name": "贴图 #6",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/Furniture_Metallic.png"
+      },
+      {
+        "name": "贴图 #32",
+        "uri": "263e895b-d266-4586-8647-a4ae4fba4da2@0f924"
+      },
+      {
+        "name": "贴图 #19",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/PropsAtlas1_color_extra.png"
+      },
+      {
+        "name": "贴图 #21",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/PropsAtlas1_Roughness.png"
+      },
+      {
+        "name": "贴图 #20",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/PropsAtlas1_metall.png"
+      },
+      {
+        "name": "贴图 #34",
+        "uri": "263e895b-d266-4586-8647-a4ae4fba4da2@23fa5"
+      },
+      {
+        "name": "贴图 #13",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/WoodPainted_Diffuse.png"
+      },
+      {
+        "name": "贴图 #14",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/roof_Color.png"
+      },
+      {
+        "name": "贴图 #15",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/roof_normal_tangent_Roughness.png"
+      },
+      {
+        "name": "贴图 #26",
+        "uri": "263e895b-d266-4586-8647-a4ae4fba4da2@6cdd3"
+      },
+      {
+        "name": "贴图 #16",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/RopesGlass_Color.png"
+      },
+      {
+        "name": "贴图 #18",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/RopesGlass_Roughness.png"
+      },
+      {
+        "name": "贴图 #17",
+        "uri": "db://assets/Models/Skechfab/tree-house/textures/RopesGlass_Metallic.png"
+      },
+      {
+        "name": "贴图 #28",
+        "uri": "263e895b-d266-4586-8647-a4ae4fba4da2@1dadb"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "Sphere",
+          "children": []
+        },
+        {
+          "name": "Cylinder.451",
+          "children": []
+        },
+        {
+          "name": "Cylinder.007",
+          "children": []
+        },
+        {
+          "name": "All_house",
+          "children": []
+        },
+        {
+          "name": "Circle.000",
+          "children": []
+        }
+      ]
+    },
+    "redirect": "263e895b-d266-4586-8647-a4ae4fba4da2@1bc03",
+    "assetFinder": {
+      "meshes": [
+        "263e895b-d266-4586-8647-a4ae4fba4da2@825ed",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@f5b6e",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@33532",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@f59f6",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@067bd"
+      ],
+      "skeletons": [],
+      "textures": [
+        "263e895b-d266-4586-8647-a4ae4fba4da2@f04b5",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@bc797",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@5ad75",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@fe05c",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@778e7",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@5f79d",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@448b6",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@eb794",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@4b8d7",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@291d4",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@b41ab",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@7c0f3",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@a4d9b",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@cb93c",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@c26db",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@baf1c",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@36f89",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@5d474",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@f1638",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@3dbff",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@2816c",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@5b61b",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@d7de2"
+      ],
+      "materials": [
+        "263e895b-d266-4586-8647-a4ae4fba4da2@7ed30",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@88446",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@f4698",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@2be88",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@94003",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@8de30",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@65a2f",
+        "263e895b-d266-4586-8647-a4ae4fba4da2@1d39c"
+      ],
+      "scenes": [
+        "263e895b-d266-4586-8647-a4ae4fba4da2@1bc03"
+      ]
+    }
+  }
+}

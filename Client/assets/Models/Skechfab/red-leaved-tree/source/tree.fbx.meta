@@ -1,0 +1,102 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7ad67345-1992-488b-a06b-573285ebd949",
+  "files": [],
+  "subMetas": {
+    "aac81": {
+      "importer": "gltf-mesh",
+      "uuid": "7ad67345-1992-488b-a06b-573285ebd949@aac81",
+      "displayName": "",
+      "id": "aac81",
+      "name": "static_mesh_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "48b49": {
+      "importer": "gltf-material",
+      "uuid": "7ad67345-1992-488b-a06b-573285ebd949@48b49",
+      "displayName": "",
+      "id": "48b49",
+      "name": "tree.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b00c5": {
+      "importer": "gltf-material",
+      "uuid": "7ad67345-1992-488b-a06b-573285ebd949@b00c5",
+      "displayName": "",
+      "id": "b00c5",
+      "name": "branch_leaves.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74dd3": {
+      "importer": "gltf-scene",
+      "uuid": "7ad67345-1992-488b-a06b-573285ebd949@74dd3",
+      "displayName": "",
+      "id": "74dd3",
+      "name": "tree.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "static_mesh",
+          "children": []
+        }
+      ]
+    },
+    "redirect": "7ad67345-1992-488b-a06b-573285ebd949@74dd3",
+    "assetFinder": {
+      "meshes": [
+        "7ad67345-1992-488b-a06b-573285ebd949@aac81"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "7ad67345-1992-488b-a06b-573285ebd949@48b49",
+        "7ad67345-1992-488b-a06b-573285ebd949@b00c5"
+      ],
+      "scenes": [
+        "7ad67345-1992-488b-a06b-573285ebd949@74dd3"
+      ]
+    },
+    "depthWriteInAlphaModeBlend": true
+  }
+}
