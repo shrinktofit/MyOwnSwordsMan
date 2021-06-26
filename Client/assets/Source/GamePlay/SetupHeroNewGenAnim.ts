@@ -57,6 +57,18 @@ export class SetupHeroNewGenAnim extends cc.Component {
         movementGraph.name = `MovementSubgraph`;
         this._setupMovementGraph(movementGraph);
 
+        const idleToMovement = graph.connect(idleGraph, movementGraph);
+        const idleToMovementCondition = idleToMovement.condition = new cc.animation.Condition();
+        idleToMovementCondition.bindProperty('lhs', GRAPH_VAR_NAME_SPEED);
+        idleToMovementCondition.operator = cc.animation.Condition.Operator.GREATER_THAN;
+        idleToMovementCondition.rhs = 0.0;
+
+        const movementToIdle = graph.connect(movementGraph, idleGraph);
+        const movementToIdleCondition = movementToIdle.condition = new cc.animation.Condition();
+        movementToIdleCondition.bindProperty('lhs', GRAPH_VAR_NAME_SPEED);
+        movementToIdleCondition.operator = cc.animation.Condition.Operator.EQUAL_TO;
+        movementToIdleCondition.rhs = 0.0;
+
         const idleSelfTransition = graph.connect(idleGraph, idleGraph);
 
         graph.connect(graph.entryNode, idleGraph);
@@ -75,9 +87,16 @@ export class SetupHeroNewGenAnim extends cc.Component {
             [createPoseFromClip(this._getClip('Running')), 6.0],
         ];
         const movementPoseNode = graph.add();
+        movementPoseNode.name = `MovementPoseNode`;
         movementPoseNode.pose = movementBlending;
 
         graph.connect(graph.entryNode, movementPoseNode);
+
+        const movementExit = graph.connect(movementPoseNode, graph.exitNode);
+        const movementToExitCondition = movementExit.condition = new cc.animation.Condition();
+        movementToExitCondition.bindProperty('lhs', GRAPH_VAR_NAME_SPEED);
+        movementToExitCondition.operator = cc.animation.Condition.Operator.EQUAL_TO;
+        movementToExitCondition.rhs = 0.0;
     }
 
     private _setupIdleGraph (graph: cc.animation.PoseSubgraph) {

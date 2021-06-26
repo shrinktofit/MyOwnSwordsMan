@@ -25,6 +25,10 @@ export class CharacterStatus extends cc.Component {
 
         slowMoveVec3(velocity, targetVelocity, acceleration, deltaTime, VELOCITY_ERROR);
 
+        if (cc.math.Vec3.equals(velocity, targetVelocity, VELOCITY_ERROR)) {
+            cc.math.Vec3.copy(velocity, targetVelocity);
+        }
+        
         if (!cc.math.Vec3.equals(velocity, cc.math.Vec3.ZERO, VELOCITY_ERROR)) {
             const newPosition = cc.math.Vec3.scaleAndAdd(
                 new cc.math.Vec3(), this.node.position, velocity, deltaTime);
