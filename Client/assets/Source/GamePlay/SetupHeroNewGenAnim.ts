@@ -70,6 +70,7 @@ export class SetupHeroNewGenAnim extends cc.Component {
         movementToIdleCondition.rhs = 0.0;
 
         const idleSelfTransition = graph.connect(idleGraph, idleGraph);
+        idleSelfTransition.duration = 0.0;
 
         graph.connect(graph.entryNode, idleGraph);
     }
@@ -119,6 +120,7 @@ export class SetupHeroNewGenAnim extends cc.Component {
 
             const exitTransition = graph.connect(node, exitNode);
             exitTransition.exitCondition = 1.0;
+            exitTransition.duration = 0.0;
         }
     }
 
