@@ -1,0 +1,528 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf",
+  "files": [],
+  "subMetas": {
+    "37284": {
+      "importer": "texture",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@37284",
+      "displayName": "",
+      "id": "37284",
+      "name": "normalmap_texture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/avacado/textures/Avakado_Normal_OpenGL.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "65420": {
+      "importer": "gltf-scene",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@65420",
+      "displayName": "",
+      "id": "65420",
+      "name": "Avakado.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b1070": {
+      "importer": "gltf-mesh",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@b1070",
+      "displayName": "",
+      "id": "b1070",
+      "name": "PM3D_PolySphere1_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c3179": {
+      "importer": "gltf-animation",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@c3179",
+      "displayName": "",
+      "id": "c3179",
+      "name": "AvacadoIdle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e420d": {
+      "importer": "gltf-animation",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@e420d",
+      "displayName": "",
+      "id": "e420d",
+      "name": "Avacado|AvacadoIdle.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 30
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0a1ef": {
+      "importer": "texture",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@0a1ef",
+      "displayName": "",
+      "id": "0a1ef",
+      "name": "base_color_texture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/avacado/textures/Avakado_Base_Color.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8518": {
+      "importer": "texture",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@b8518",
+      "displayName": "",
+      "id": "b8518",
+      "name": "base_color_texture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/avacado/textures/FaceTest3.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ee6d5": {
+      "importer": "gltf-material",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@ee6d5",
+      "displayName": "",
+      "id": "ee6d5",
+      "name": "Avakado.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f34c": {
+      "importer": "gltf-material",
+      "uuid": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@4f34c",
+      "displayName": "",
+      "id": "4f34c",
+      "name": "Eye.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/avacado/textures/Avakado_Base_Color.png"
+      },
+      {
+        "name": "normalmap_texture",
+        "uri": "db://assets/Models/Skechfab/avacado/textures/Avakado_Normal_OpenGL.png"
+      },
+      {
+        "name": "base_color_texture",
+        "uri": "db://assets/Models/Skechfab/avacado/textures/FaceTest3.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "PM3D_PolySphere1",
+          "children": []
+        },
+        {
+          "name": "Avacado",
+          "children": [
+            2
+          ]
+        },
+        {
+          "name": "spine",
+          "children": [
+            3,
+            26,
+            28,
+            30,
+            37
+          ]
+        },
+        {
+          "name": "spine.001",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "spine.002",
+          "children": [
+            5
+          ]
+        },
+        {
+          "name": "spine.003",
+          "children": [
+            6,
+            10,
+            15,
+            20,
+            22,
+            24
+          ]
+        },
+        {
+          "name": "spine.004",
+          "children": [
+            7
+          ]
+        },
+        {
+          "name": "spine.005",
+          "children": [
+            8
+          ]
+        },
+        {
+          "name": "spine.006",
+          "children": [
+            9
+          ]
+        },
+        {
+          "name": "spine.006_end",
+          "children": []
+        },
+        {
+          "name": "shoulder.L",
+          "children": [
+            11
+          ]
+        },
+        {
+          "name": "upper_arm.L",
+          "children": [
+            12
+          ]
+        },
+        {
+          "name": "forearm.L",
+          "children": [
+            13
+          ]
+        },
+        {
+          "name": "hand.L",
+          "children": [
+            14
+          ]
+        },
+        {
+          "name": "hand.L_end",
+          "children": []
+        },
+        {
+          "name": "shoulder.R",
+          "children": [
+            16
+          ]
+        },
+        {
+          "name": "upper_arm.R",
+          "children": [
+            17
+          ]
+        },
+        {
+          "name": "forearm.R",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "hand.R",
+          "children": [
+            19
+          ]
+        },
+        {
+          "name": "hand.R_end",
+          "children": []
+        },
+        {
+          "name": "spine.007",
+          "children": [
+            21
+          ]
+        },
+        {
+          "name": "spine.007_end",
+          "children": []
+        },
+        {
+          "name": "spine.008",
+          "children": [
+            23
+          ]
+        },
+        {
+          "name": "spine.008_end",
+          "children": []
+        },
+        {
+          "name": "spine.009",
+          "children": [
+            25
+          ]
+        },
+        {
+          "name": "spine.009_end",
+          "children": []
+        },
+        {
+          "name": "pelvis.L",
+          "children": [
+            27
+          ]
+        },
+        {
+          "name": "pelvis.L_end",
+          "children": []
+        },
+        {
+          "name": "pelvis.R",
+          "children": [
+            29
+          ]
+        },
+        {
+          "name": "pelvis.R_end",
+          "children": []
+        },
+        {
+          "name": "thigh.L",
+          "children": [
+            31
+          ]
+        },
+        {
+          "name": "shin.L",
+          "children": [
+            32
+          ]
+        },
+        {
+          "name": "foot.L",
+          "children": [
+            33,
+            35
+          ]
+        },
+        {
+          "name": "toe.L",
+          "children": [
+            34
+          ]
+        },
+        {
+          "name": "toe.L_end",
+          "children": []
+        },
+        {
+          "name": "heel.02.L",
+          "children": [
+            36
+          ]
+        },
+        {
+          "name": "heel.02.L_end",
+          "children": []
+        },
+        {
+          "name": "thigh.R",
+          "children": [
+            38
+          ]
+        },
+        {
+          "name": "shin.R",
+          "children": [
+            39
+          ]
+        },
+        {
+          "name": "foot.R",
+          "children": [
+            40,
+            42
+          ]
+        },
+        {
+          "name": "toe.R",
+          "children": [
+            41
+          ]
+        },
+        {
+          "name": "toe.R_end",
+          "children": []
+        },
+        {
+          "name": "heel.02.R",
+          "children": [
+            43
+          ]
+        },
+        {
+          "name": "heel.02.R_end",
+          "children": []
+        }
+      ]
+    },
+    "animationImportSettings": [
+      {
+        "name": "AvacadoIdle",
+        "duration": 2.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "AvacadoIdle",
+            "from": 0,
+            "to": 2.3333332538604736,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Avacado|AvacadoIdle",
+        "duration": 2.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Avacado|AvacadoIdle",
+            "from": 0,
+            "to": 2.3333332538604736,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@65420",
+    "assetFinder": {
+      "meshes": [
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@b1070"
+      ],
+      "skeletons": [
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@438fe"
+      ],
+      "textures": [
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@0a1ef",
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@37284",
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@b8518"
+      ],
+      "materials": [
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@ee6d5",
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@4f34c"
+      ],
+      "scenes": [
+        "6d5e8a92-b663-4b7c-bdcb-86f556c0faaf@65420"
+      ]
+    },
+    "depthWriteInAlphaModeBlend": true
+  }
+}
