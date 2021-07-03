@@ -27,7 +27,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 70
+      "__id__": 71
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -265,6 +265,9 @@
       },
       {
         "__id__": 69
+      },
+      {
+        "__id__": 70
       }
     ],
     "removedComponents": []
@@ -1240,6 +1243,16 @@
     "value": {
       "__id__": 7
     }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 16
+    },
+    "propertyPath": [
+      "_useBakedAnimation"
+    ],
+    "value": false
   },
   {
     "__type__": "cc.PrefabInfo",
