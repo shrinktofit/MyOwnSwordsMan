@@ -1,0 +1,1148 @@
+{
+  "ver": "2.0.14",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9",
+  "files": [],
+  "subMetas": {
+    "82371": {
+      "importer": "gltf-mesh",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@82371",
+      "displayName": "",
+      "id": "82371",
+      "name": "UnnamedMesh-1.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "057cb": {
+      "importer": "gltf-mesh",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@057cb",
+      "displayName": "",
+      "id": "057cb",
+      "name": "UnnamedMesh-0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e2262": {
+      "importer": "gltf-animation",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@e2262",
+      "displayName": "",
+      "id": "e2262",
+      "name": "Jeerkoa4_Idle40.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c321": {
+      "importer": "gltf-animation",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@1c321",
+      "displayName": "",
+      "id": "1c321",
+      "name": "Jeerkoa4_Walk20.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.8333333134651184
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e837": {
+      "importer": "gltf-animation",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@1e837",
+      "displayName": "",
+      "id": "1e837",
+      "name": "Jerrkoa2_idle50.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 2.125
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d88d": {
+      "importer": "gltf-animation",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@9d88d",
+      "displayName": "",
+      "id": "9d88d",
+      "name": "Jerrkoa2_Walk40.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.6666666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5a36e": {
+      "importer": "gltf-animation",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@5a36e",
+      "displayName": "",
+      "id": "5a36e",
+      "name": "Jerrkoa_Sleep19.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c875e": {
+      "importer": "gltf-animation",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@c875e",
+      "displayName": "",
+      "id": "c875e",
+      "name": "Jerrkoa_Wake19.animation",
+      "userData": {
+        "gltfIndex": 5,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.7916666865348816
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 114
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3effa": {
+      "importer": "texture",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@3effa",
+      "displayName": "",
+      "id": "3effa",
+      "name": "UnnamedTexture-0.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/jeerkoa/textures/Fuzzy_baseColor.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "221a5": {
+      "importer": "texture",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@221a5",
+      "displayName": "",
+      "id": "221a5",
+      "name": "UnnamedTexture-1.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/jeerkoa/textures/Fuzzy_normal.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0089c": {
+      "importer": "texture",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@0089c",
+      "displayName": "",
+      "id": "0089c",
+      "name": "UnnamedTexture-2.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/jeerkoa/textures/Eyes_baseColor.jpeg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f32db": {
+      "importer": "gltf-material",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@f32db",
+      "displayName": "",
+      "id": "f32db",
+      "name": "Fuzzy.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4b54": {
+      "importer": "gltf-material",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@f4b54",
+      "displayName": "",
+      "id": "f4b54",
+      "name": "Eyes.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1932": {
+      "importer": "gltf-scene",
+      "uuid": "ff8448bd-962c-492c-8d51-16ea782337b9@d1932",
+      "displayName": "",
+      "id": "d1932",
+      "name": "scene.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "uri": "db://assets/Models/Skechfab/jeerkoa/textures/Fuzzy_baseColor.png"
+      },
+      {
+        "uri": "db://assets/Models/Skechfab/jeerkoa/textures/Fuzzy_normal.png"
+      },
+      {
+        "uri": "db://assets/Models/Skechfab/jeerkoa/textures/Eyes_baseColor.jpeg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "RootNode (gltf orientation matrix)",
+          "children": [
+            1
+          ]
+        },
+        {
+          "name": "RootNode (model correction matrix)",
+          "children": [
+            2
+          ]
+        },
+        {
+          "name": "root",
+          "children": [
+            3
+          ]
+        },
+        {
+          "name": "GLTF_SceneRootNode",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "Jerrkoa_Skele_119",
+          "children": [
+            5
+          ]
+        },
+        {
+          "name": "GLTF_created_0",
+          "children": [
+            6,
+            8,
+            10,
+            7,
+            9
+          ]
+        },
+        {
+          "name": "GLTF_created_0_rootJoint",
+          "children": [
+            11
+          ]
+        },
+        {
+          "name": "Cube.026_117",
+          "children": []
+        },
+        {
+          "name": "(__autogen 1)",
+          "children": []
+        },
+        {
+          "name": "Roundcube.002_118",
+          "children": []
+        },
+        {
+          "name": "(__autogen 2)",
+          "children": []
+        },
+        {
+          "name": "Base_116",
+          "children": [
+            12,
+            112,
+            114,
+            116,
+            117,
+            118,
+            120,
+            122,
+            123
+          ]
+        },
+        {
+          "name": "Hips_103",
+          "children": [
+            13,
+            69,
+            85,
+            101
+          ]
+        },
+        {
+          "name": "Spine1_59",
+          "children": [
+            14
+          ]
+        },
+        {
+          "name": "Spine2_58",
+          "children": [
+            15
+          ]
+        },
+        {
+          "name": "Torso_57",
+          "children": [
+            16,
+            31,
+            50
+          ]
+        },
+        {
+          "name": "Neck1_18",
+          "children": [
+            17
+          ]
+        },
+        {
+          "name": "Neck2_17",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "Neck3_16",
+          "children": [
+            19
+          ]
+        },
+        {
+          "name": "Head_15",
+          "children": [
+            20,
+            21,
+            25,
+            29,
+            30
+          ]
+        },
+        {
+          "name": "Bone.008_4",
+          "children": []
+        },
+        {
+          "name": "Ear.l_8",
+          "children": [
+            22
+          ]
+        },
+        {
+          "name": "Ear.l.003_7",
+          "children": [
+            23
+          ]
+        },
+        {
+          "name": "Ear.l.002_6",
+          "children": [
+            24
+          ]
+        },
+        {
+          "name": "Ear.l.001_5",
+          "children": []
+        },
+        {
+          "name": "Ear.r_12",
+          "children": [
+            26
+          ]
+        },
+        {
+          "name": "Ear.r.003_11",
+          "children": [
+            27
+          ]
+        },
+        {
+          "name": "Ear.r.002_10",
+          "children": [
+            28
+          ]
+        },
+        {
+          "name": "Ear.r.001_9",
+          "children": []
+        },
+        {
+          "name": "Head_L_13",
+          "children": []
+        },
+        {
+          "name": "Head_R_14",
+          "children": []
+        },
+        {
+          "name": "Shoulder.l_37",
+          "children": [
+            32
+          ]
+        },
+        {
+          "name": "UpperArm.l_36",
+          "children": [
+            33
+          ]
+        },
+        {
+          "name": "ForeArm.l_35",
+          "children": [
+            34
+          ]
+        },
+        {
+          "name": "Wrist.l_34",
+          "children": [
+            35,
+            38,
+            41,
+            44,
+            47
+          ]
+        },
+        {
+          "name": "Bone.002_L.004_21",
+          "children": [
+            36
+          ]
+        },
+        {
+          "name": "Finger4a.l_20",
+          "children": [
+            37
+          ]
+        },
+        {
+          "name": "Finger4b.l_19",
+          "children": []
+        },
+        {
+          "name": "Bone.002_L.005_24",
+          "children": [
+            39
+          ]
+        },
+        {
+          "name": "Finger3a.l_23",
+          "children": [
+            40
+          ]
+        },
+        {
+          "name": "Finger3b.l_22",
+          "children": []
+        },
+        {
+          "name": "Bone.002_L.006_27",
+          "children": [
+            42
+          ]
+        },
+        {
+          "name": "Finger2a.l_26",
+          "children": [
+            43
+          ]
+        },
+        {
+          "name": "Finger2b.l_25",
+          "children": []
+        },
+        {
+          "name": "Bone.002_L.007_30",
+          "children": [
+            45
+          ]
+        },
+        {
+          "name": "Finger1a.l_29",
+          "children": [
+            46
+          ]
+        },
+        {
+          "name": "Finger1b.l_28",
+          "children": []
+        },
+        {
+          "name": "Bone.002_L.008_33",
+          "children": [
+            48
+          ]
+        },
+        {
+          "name": "Thumba.l_32",
+          "children": [
+            49
+          ]
+        },
+        {
+          "name": "Thumbb.l_31",
+          "children": []
+        },
+        {
+          "name": "Shoulder.r_56",
+          "children": [
+            51
+          ]
+        },
+        {
+          "name": "UpperArm.r_55",
+          "children": [
+            52
+          ]
+        },
+        {
+          "name": "ForeArm.r_54",
+          "children": [
+            53
+          ]
+        },
+        {
+          "name": "Wrist.r_53",
+          "children": [
+            54,
+            57,
+            60,
+            63,
+            66
+          ]
+        },
+        {
+          "name": "Bone.002_R.004_40",
+          "children": [
+            55
+          ]
+        },
+        {
+          "name": "Finger4a.r_39",
+          "children": [
+            56
+          ]
+        },
+        {
+          "name": "Finger4b.r_38",
+          "children": []
+        },
+        {
+          "name": "Bone.002_R.005_43",
+          "children": [
+            58
+          ]
+        },
+        {
+          "name": "Finger3a.r_42",
+          "children": [
+            59
+          ]
+        },
+        {
+          "name": "Finger3b.r_41",
+          "children": []
+        },
+        {
+          "name": "Bone.002_R.006_46",
+          "children": [
+            61
+          ]
+        },
+        {
+          "name": "Finger2a.r_45",
+          "children": [
+            62
+          ]
+        },
+        {
+          "name": "Finger2b.r_44",
+          "children": []
+        },
+        {
+          "name": "Bone.002_R.007_49",
+          "children": [
+            64
+          ]
+        },
+        {
+          "name": "Finger1a.r_48",
+          "children": [
+            65
+          ]
+        },
+        {
+          "name": "Finger1b.r_47",
+          "children": []
+        },
+        {
+          "name": "Bone.002_R.008_52",
+          "children": [
+            67
+          ]
+        },
+        {
+          "name": "Thumba.r_51",
+          "children": [
+            68
+          ]
+        },
+        {
+          "name": "Thumbb.r_50",
+          "children": []
+        },
+        {
+          "name": "Upperleg.l_75",
+          "children": [
+            70
+          ]
+        },
+        {
+          "name": "lowerleg.l_74",
+          "children": [
+            71
+          ]
+        },
+        {
+          "name": "Ankle.l_73",
+          "children": [
+            72
+          ]
+        },
+        {
+          "name": "foot.l_72",
+          "children": [
+            73,
+            76,
+            79,
+            82
+          ]
+        },
+        {
+          "name": "Bone_L.004_62",
+          "children": [
+            74
+          ]
+        },
+        {
+          "name": "Bone_L.008_61",
+          "children": [
+            75
+          ]
+        },
+        {
+          "name": "Bone_L.012_60",
+          "children": []
+        },
+        {
+          "name": "Bone_L.005_65",
+          "children": [
+            77
+          ]
+        },
+        {
+          "name": "Bone_L.009_64",
+          "children": [
+            78
+          ]
+        },
+        {
+          "name": "Bone_L.013_63",
+          "children": []
+        },
+        {
+          "name": "Bone_L.006_68",
+          "children": [
+            80
+          ]
+        },
+        {
+          "name": "Bone_L.010_67",
+          "children": [
+            81
+          ]
+        },
+        {
+          "name": "Bone_L.014_66",
+          "children": []
+        },
+        {
+          "name": "Bone_L.007_71",
+          "children": [
+            83
+          ]
+        },
+        {
+          "name": "Bone_L.011_70",
+          "children": [
+            84
+          ]
+        },
+        {
+          "name": "Bone_L.015_69",
+          "children": []
+        },
+        {
+          "name": "Upperleg.r_91",
+          "children": [
+            86
+          ]
+        },
+        {
+          "name": "lowerleg.r_90",
+          "children": [
+            87
+          ]
+        },
+        {
+          "name": "Ankle.r_89",
+          "children": [
+            88
+          ]
+        },
+        {
+          "name": "foot.r_88",
+          "children": [
+            89,
+            92,
+            95,
+            98
+          ]
+        },
+        {
+          "name": "Bone_R.004_78",
+          "children": [
+            90
+          ]
+        },
+        {
+          "name": "Bone_R.008_77",
+          "children": [
+            91
+          ]
+        },
+        {
+          "name": "Bone_R.012_76",
+          "children": []
+        },
+        {
+          "name": "Bone_R.005_81",
+          "children": [
+            93
+          ]
+        },
+        {
+          "name": "Bone_R.009_80",
+          "children": [
+            94
+          ]
+        },
+        {
+          "name": "Bone_R.013_79",
+          "children": []
+        },
+        {
+          "name": "Bone_R.006_84",
+          "children": [
+            96
+          ]
+        },
+        {
+          "name": "Bone_R.010_83",
+          "children": [
+            97
+          ]
+        },
+        {
+          "name": "Bone_R.014_82",
+          "children": []
+        },
+        {
+          "name": "Bone_R.007_87",
+          "children": [
+            99
+          ]
+        },
+        {
+          "name": "Bone_R.011_86",
+          "children": [
+            100
+          ]
+        },
+        {
+          "name": "Bone_R.015_85",
+          "children": []
+        },
+        {
+          "name": "Bone.009_102",
+          "children": [
+            102
+          ]
+        },
+        {
+          "name": "Bone.019_101",
+          "children": [
+            103
+          ]
+        },
+        {
+          "name": "Bone.018_100",
+          "children": [
+            104
+          ]
+        },
+        {
+          "name": "Bone.017_99",
+          "children": [
+            105
+          ]
+        },
+        {
+          "name": "Bone.016_98",
+          "children": [
+            106
+          ]
+        },
+        {
+          "name": "Bone.015_97",
+          "children": [
+            107
+          ]
+        },
+        {
+          "name": "Bone.014_96",
+          "children": [
+            108
+          ]
+        },
+        {
+          "name": "Bone.013_95",
+          "children": [
+            109
+          ]
+        },
+        {
+          "name": "Bone.012_94",
+          "children": [
+            110
+          ]
+        },
+        {
+          "name": "Bone.011_93",
+          "children": [
+            111
+          ]
+        },
+        {
+          "name": "Bone.010_92",
+          "children": []
+        },
+        {
+          "name": "Foot_IK.l_105",
+          "children": [
+            113
+          ]
+        },
+        {
+          "name": "footRot.l_104",
+          "children": []
+        },
+        {
+          "name": "Foot_IK.r_107",
+          "children": [
+            115
+          ]
+        },
+        {
+          "name": "footRot.r_106",
+          "children": []
+        },
+        {
+          "name": "Foot_IKt.l_108",
+          "children": []
+        },
+        {
+          "name": "Foot_IKt.r_109",
+          "children": []
+        },
+        {
+          "name": "HandIK.l_111",
+          "children": [
+            119
+          ]
+        },
+        {
+          "name": "HandIKHandle.l_110",
+          "children": []
+        },
+        {
+          "name": "HandIK.r_113",
+          "children": [
+            121
+          ]
+        },
+        {
+          "name": "HandIKHandle.r_112",
+          "children": []
+        },
+        {
+          "name": "HandIKt.l_114",
+          "children": []
+        },
+        {
+          "name": "HandIKt.r_115",
+          "children": []
+        }
+      ]
+    },
+    "animationImportSettings": [
+      {
+        "name": "Jeerkoa4_Idle40",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jeerkoa4_Idle40",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Jeerkoa4_Walk20",
+        "duration": 0.8333333134651184,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jeerkoa4_Walk20",
+            "from": 0,
+            "to": 0.8333333134651184,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Jerrkoa2_idle50",
+        "duration": 2.125,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jerrkoa2_idle50",
+            "from": 0,
+            "to": 2.125,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Jerrkoa2_Walk40",
+        "duration": 1.6666666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jerrkoa2_Walk40",
+            "from": 0,
+            "to": 1.6666666269302368,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Jerrkoa_Sleep19",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jerrkoa_Sleep19",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Jerrkoa_Wake19",
+        "duration": 0.7916666865348816,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Jerrkoa_Wake19",
+            "from": 0,
+            "to": 0.7916666865348816,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "ff8448bd-962c-492c-8d51-16ea782337b9@d1932",
+    "assetFinder": {
+      "meshes": [
+        "ff8448bd-962c-492c-8d51-16ea782337b9@057cb",
+        "ff8448bd-962c-492c-8d51-16ea782337b9@82371"
+      ],
+      "skeletons": [
+        "ff8448bd-962c-492c-8d51-16ea782337b9@438fe"
+      ],
+      "textures": [
+        "ff8448bd-962c-492c-8d51-16ea782337b9@3effa",
+        "ff8448bd-962c-492c-8d51-16ea782337b9@221a5",
+        "ff8448bd-962c-492c-8d51-16ea782337b9@0089c"
+      ],
+      "materials": [
+        "ff8448bd-962c-492c-8d51-16ea782337b9@f32db",
+        "ff8448bd-962c-492c-8d51-16ea782337b9@f4b54"
+      ],
+      "scenes": [
+        "ff8448bd-962c-492c-8d51-16ea782337b9@d1932"
+      ]
+    }
+  }
+}

@@ -84,6 +84,8 @@ class Stupid extends cc.Component {
 
     private _idleStateTimer = 0.0;
 
+    private _walkStateTimer = 0.0;
+
     private _walkTarget = new cc.math.Vec3();
 
     private _walkSpeed = 0.0;
@@ -101,15 +103,10 @@ class Stupid extends cc.Component {
     }
 
     private _onStateWalking (deltaTime: number) {
-        const distance = cc.math.Vec3.distance(this.node.position, this._walkTarget);
-        if (cc.math.approx(distance, 0.0, 1e-2)) {
-            this._startIdle();
+        if (this._walkStateTimer > 0.0) {
+            this._walkStateTimer -= deltaTime;
         } else {
-            const inc = Math.min(this._walkSpeed * deltaTime, distance);
-            const dir = cc.math.Vec3.subtract(
-                new cc.math.Vec3(), this._walkTarget, this.node.position);
-            cc.math.Vec3.normalize(dir, dir);
-            this.node.position = cc.math.Vec3.scaleAndAdd(new cc.math.Vec3(), this.node.position, dir, inc);
+            this._startIdle();
         }
     }
 
@@ -126,12 +123,16 @@ class Stupid extends cc.Component {
         const pX = radius * Math.cos(angle);
         const pY = radius * Math.sin(angle);
         this._walkTarget = new cc.Vec3(pX, 0.0, pY);
-        this._walkSpeed = cc.randomRange(0.5, 1.0);
+        this._walkSpeed = cc.randomRange(0.2, 0.3);
         const dir = cc.math.Vec3.subtract(
             new cc.math.Vec3(), this._walkTarget, this.node.position);
+        const distance = cc.math.Vec3.len(dir);
         cc.math.Vec3.normalize(dir, dir);
+        this._walkStateTimer = distance / this._walkSpeed;
         const rotationAngle = cc.math.Vec3.angle(dir, cc.math.Vec3.UNIT_Z);
-        const rotationAxis = cc.math.Vec3.cross(new cc.math.Vec3(), cc.math.Vec3.UNIT_Z, dir);
+        const rotationAxis = cc.math.Vec3.normalize(
+            new cc.math.Vec3(),
+            cc.math.Vec3.cross(new cc.math.Vec3(), cc.math.Vec3.UNIT_Z, dir));
         const rotation = cc.math.Quat.fromAxisAngle(new cc.math.Quat(), rotationAxis, rotationAngle);
         this.node.rotation = rotation;
         this.characterStatus.velocity = cc.math.Vec3.multiplyScalar(new cc.math.Vec3(), dir, this._walkSpeed);

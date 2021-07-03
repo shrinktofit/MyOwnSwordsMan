@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jeerkoa
+* source:	https://sketchfab.com/3d-models/jeerkoa-ed066c0420a04736a0cba2c7212c0af0
+* author:	J-Jurassic (https://sketchfab.com/J-Jurassic)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jeerkoa" (https://sketchfab.com/3d-models/jeerkoa-ed066c0420a04736a0cba2c7212c0af0) by J-Jurassic (https://sketchfab.com/J-Jurassic) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
