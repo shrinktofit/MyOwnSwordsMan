@@ -1,0 +1,475 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "7b395a19-4406-4993-aa40-f74c84535161",
+  "files": [],
+  "subMetas": {
+    "18205": {
+      "importer": "gltf-animation",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@18205",
+      "displayName": "",
+      "id": "18205",
+      "name": "Hippo_Armature|Idle1.animation",
+      "userData": {
+        "gltfIndex": 1,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3.4583332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "571d1": {
+      "importer": "gltf-mesh",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@571d1",
+      "displayName": "",
+      "id": "571d1",
+      "name": "RetopoFlow.066.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "50ca7": {
+      "importer": "gltf-animation",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@50ca7",
+      "displayName": "",
+      "id": "50ca7",
+      "name": "Hippo_Armature|Idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333730697632
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "098c5": {
+      "importer": "gltf-animation",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@098c5",
+      "displayName": "",
+      "id": "098c5",
+      "name": "Hippo_Armature|Idle2.animation",
+      "userData": {
+        "gltfIndex": 2,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 6.208333492279053
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5917c": {
+      "importer": "gltf-animation",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@5917c",
+      "displayName": "",
+      "id": "5917c",
+      "name": "Hippo_Armature|Walk.animation",
+      "userData": {
+        "gltfIndex": 3,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.625
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "25a92": {
+      "importer": "gltf-animation",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@25a92",
+      "displayName": "",
+      "id": "25a92",
+      "name": "Hippo_Armature|Walk1.animation",
+      "userData": {
+        "gltfIndex": 4,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.2916666269302368
+        },
+        "events": []
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "438fe": {
+      "importer": "gltf-skeleton",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@438fe",
+      "displayName": "",
+      "id": "438fe",
+      "name": "UnnamedSkeleton.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 32
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b4e6b": {
+      "importer": "gltf-material",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@b4e6b",
+      "displayName": "",
+      "id": "b4e6b",
+      "name": "Material.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "928e3": {
+      "importer": "gltf-scene",
+      "uuid": "7b395a19-4406-4993-aa40-f74c84535161@928e3",
+      "displayName": "",
+      "id": "928e3",
+      "name": "Hypo.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "Hippo_Armature",
+          "children": [
+            1
+          ]
+        },
+        {
+          "name": "Root",
+          "children": [
+            2,
+            29,
+            30,
+            31,
+            32
+          ]
+        },
+        {
+          "name": "Back",
+          "children": [
+            3,
+            6,
+            9,
+            26
+          ]
+        },
+        {
+          "name": "BThigh_l",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "BCalf_l",
+          "children": [
+            5
+          ]
+        },
+        {
+          "name": "BFeet_l",
+          "children": []
+        },
+        {
+          "name": "BThigh_r",
+          "children": [
+            7
+          ]
+        },
+        {
+          "name": "BCalf_r",
+          "children": [
+            8
+          ]
+        },
+        {
+          "name": "BFeet_r",
+          "children": []
+        },
+        {
+          "name": "Body2",
+          "children": [
+            10
+          ]
+        },
+        {
+          "name": "Body1",
+          "children": [
+            11,
+            14,
+            17
+          ]
+        },
+        {
+          "name": "FThigh_l",
+          "children": [
+            12
+          ]
+        },
+        {
+          "name": "FCalf_l",
+          "children": [
+            13
+          ]
+        },
+        {
+          "name": "FFeet_l",
+          "children": []
+        },
+        {
+          "name": "FThigh_r",
+          "children": [
+            15
+          ]
+        },
+        {
+          "name": "FCalf_r",
+          "children": [
+            16
+          ]
+        },
+        {
+          "name": "FFeet_r",
+          "children": []
+        },
+        {
+          "name": "Neck",
+          "children": [
+            18
+          ]
+        },
+        {
+          "name": "Head",
+          "children": [
+            19,
+            23
+          ]
+        },
+        {
+          "name": "HeadJaw",
+          "children": [
+            20
+          ]
+        },
+        {
+          "name": "Tongue1",
+          "children": [
+            21
+          ]
+        },
+        {
+          "name": "Tongue2",
+          "children": [
+            22
+          ]
+        },
+        {
+          "name": "Tongue3",
+          "children": []
+        },
+        {
+          "name": "HeadTop",
+          "children": [
+            24,
+            25
+          ]
+        },
+        {
+          "name": "Eye_l",
+          "children": []
+        },
+        {
+          "name": "Eye_r",
+          "children": []
+        },
+        {
+          "name": "Tail1",
+          "children": [
+            27
+          ]
+        },
+        {
+          "name": "Tail2",
+          "children": [
+            28
+          ]
+        },
+        {
+          "name": "Tail3",
+          "children": []
+        },
+        {
+          "name": "FFeetIK_r",
+          "children": []
+        },
+        {
+          "name": "FFeetIK_l",
+          "children": []
+        },
+        {
+          "name": "BFeetIK_l",
+          "children": []
+        },
+        {
+          "name": "BFeetIK_r",
+          "children": []
+        },
+        {
+          "name": "Hippo",
+          "children": []
+        }
+      ]
+    },
+    "animationImportSettings": [
+      {
+        "name": "Hippo_Armature|Iddle",
+        "duration": 1.3333333730697632,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hippo_Armature|Idle",
+            "from": 0,
+            "to": 1.3333333730697632,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Hippo_Armature|Iddle1",
+        "duration": 3.4583332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hippo_Armature|Idle1",
+            "from": 0,
+            "to": 3.4583332538604736,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Hippo_Armature|Iddle2",
+        "duration": 6.208333492279053,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hippo_Armature|Idle2",
+            "from": 0,
+            "to": 6.208333492279053,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Hippo_Armature|Walk",
+        "duration": 1.625,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hippo_Armature|Walk",
+            "from": 0,
+            "to": 1.625,
+            "wrapMode": 2
+          }
+        ]
+      },
+      {
+        "name": "Hippo_Armature|Walk1",
+        "duration": 1.2916666269302368,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "Hippo_Armature|Walk1",
+            "from": 0,
+            "to": 1.2916666269302368,
+            "wrapMode": 2
+          }
+        ]
+      }
+    ],
+    "redirect": "7b395a19-4406-4993-aa40-f74c84535161@928e3",
+    "assetFinder": {
+      "meshes": [
+        "7b395a19-4406-4993-aa40-f74c84535161@571d1"
+      ],
+      "skeletons": [
+        "7b395a19-4406-4993-aa40-f74c84535161@438fe"
+      ],
+      "textures": [],
+      "materials": [
+        "7b395a19-4406-4993-aa40-f74c84535161@b4e6b"
+      ],
+      "scenes": [
+        "7b395a19-4406-4993-aa40-f74c84535161@928e3"
+      ]
+    }
+  }
+}
