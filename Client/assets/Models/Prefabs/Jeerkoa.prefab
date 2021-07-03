@@ -27,7 +27,7 @@
       }
     ],
     "_prefab": {
-      "__id__": 24
+      "__id__": 70
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -127,6 +127,144 @@
       },
       {
         "__id__": 23
+      },
+      {
+        "__id__": 24
+      },
+      {
+        "__id__": 25
+      },
+      {
+        "__id__": 26
+      },
+      {
+        "__id__": 27
+      },
+      {
+        "__id__": 28
+      },
+      {
+        "__id__": 29
+      },
+      {
+        "__id__": 30
+      },
+      {
+        "__id__": 31
+      },
+      {
+        "__id__": 32
+      },
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 34
+      },
+      {
+        "__id__": 35
+      },
+      {
+        "__id__": 36
+      },
+      {
+        "__id__": 37
+      },
+      {
+        "__id__": 38
+      },
+      {
+        "__id__": 39
+      },
+      {
+        "__id__": 40
+      },
+      {
+        "__id__": 41
+      },
+      {
+        "__id__": 42
+      },
+      {
+        "__id__": 43
+      },
+      {
+        "__id__": 44
+      },
+      {
+        "__id__": 45
+      },
+      {
+        "__id__": 46
+      },
+      {
+        "__id__": 47
+      },
+      {
+        "__id__": 48
+      },
+      {
+        "__id__": 49
+      },
+      {
+        "__id__": 50
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 52
+      },
+      {
+        "__id__": 53
+      },
+      {
+        "__id__": 54
+      },
+      {
+        "__id__": 55
+      },
+      {
+        "__id__": 56
+      },
+      {
+        "__id__": 57
+      },
+      {
+        "__id__": 58
+      },
+      {
+        "__id__": 59
+      },
+      {
+        "__id__": 60
+      },
+      {
+        "__id__": 61
+      },
+      {
+        "__id__": 62
+      },
+      {
+        "__id__": 63
+      },
+      {
+        "__id__": 64
+      },
+      {
+        "__id__": 65
+      },
+      {
+        "__id__": 66
+      },
+      {
+        "__id__": 67
+      },
+      {
+        "__id__": 68
+      },
+      {
+        "__id__": 69
       }
     ],
     "removedComponents": []
@@ -369,6 +507,739 @@
       "_enabled"
     ],
     "value": false
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "root"
+    ],
+    "value": {
+      "__id__": 2
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "mountedComponents",
+      "0",
+      "components",
+      "0"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_lscale"
+    ],
+    "value": {
+      "__type__": "cc.Vec3",
+      "x": 0.4000000059604645,
+      "y": 0.4000000059604645,
+      "z": 0.4000000059604645
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "12",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "14",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "15",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "16",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "17",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "18",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "19",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "20",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "21",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "22",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "23",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "24",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "25",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "26",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "27",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "28",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "29",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "30",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "31",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "32",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "33",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "34",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "35",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "36",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "37",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "38",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "39",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "40",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "41",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "42",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "43",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "44",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "45",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "46",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "47",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "48",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "49",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "50",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "51",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "52",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "53",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "54",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
+  },
+  {
+    "__type__": "CCPropertyOverrideInfo",
+    "targetInfo": {
+      "__id__": 12
+    },
+    "propertyPath": [
+      "_prefab",
+      "instance",
+      "propertyOverrides",
+      "55",
+      "value"
+    ],
+    "value": {
+      "__id__": 7
+    }
   },
   {
     "__type__": "cc.PrefabInfo",

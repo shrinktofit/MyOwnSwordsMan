@@ -105,7 +105,7 @@ export class SetupJeerkoaNewGenAnim extends cc.Component {
 
         const idles: [cc.animation.PoseNode, number][] = [
             [createPoseNodeFromClip(graph, this._getClip('Jeerkoa4_Idle40')), 0.5],
-            [createPoseNodeFromClip(graph, this._getClip('Jerrkoa2_idle50')), 0.5],
+            [createPoseNodeFromClip(graph, this._getClip('Jerrkoa2_idle50')), 1.0],
         ];
 
         for (const [node, randomThreshold] of idles) {
