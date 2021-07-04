@@ -1,0 +1,165 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af",
+  "files": [],
+  "subMetas": {
+    "37075": {
+      "importer": "gltf-mesh",
+      "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af@37075",
+      "displayName": "",
+      "id": "37075",
+      "name": "leaves.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c3ae6": {
+      "importer": "gltf-mesh",
+      "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af@c3ae6",
+      "displayName": "",
+      "id": "c3ae6",
+      "name": "plant1_1.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "515e1": {
+      "importer": "gltf-mesh",
+      "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af@515e1",
+      "displayName": "",
+      "id": "515e1",
+      "name": "wooddebris.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2701e": {
+      "importer": "gltf-mesh",
+      "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af@2701e",
+      "displayName": "",
+      "id": "2701e",
+      "name": "dryleaves_1.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d0eea": {
+      "importer": "gltf-mesh",
+      "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af@d0eea",
+      "displayName": "",
+      "id": "d0eea",
+      "name": "tree1.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8ca76": {
+      "importer": "gltf-scene",
+      "uuid": "be594cb0-a95c-4c09-ab48-a22c508343af@8ca76",
+      "displayName": "",
+      "id": "8ca76",
+      "name": "tree1.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "scene",
+          "children": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "name": "plant1_1",
+          "children": []
+        },
+        {
+          "name": "wooddebris",
+          "children": []
+        },
+        {
+          "name": "dryleaves_1",
+          "children": []
+        },
+        {
+          "name": "tree1",
+          "children": [
+            5
+          ]
+        },
+        {
+          "name": "leaves",
+          "children": []
+        }
+      ]
+    },
+    "redirect": "be594cb0-a95c-4c09-ab48-a22c508343af@8ca76",
+    "assetFinder": {
+      "meshes": [
+        "be594cb0-a95c-4c09-ab48-a22c508343af@c3ae6",
+        "be594cb0-a95c-4c09-ab48-a22c508343af@515e1",
+        "be594cb0-a95c-4c09-ab48-a22c508343af@2701e",
+        "be594cb0-a95c-4c09-ab48-a22c508343af@d0eea",
+        "be594cb0-a95c-4c09-ab48-a22c508343af@37075"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [],
+      "scenes": [
+        "be594cb0-a95c-4c09-ab48-a22c508343af@8ca76"
+      ]
+    }
+  }
+}
