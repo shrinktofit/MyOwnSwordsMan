@@ -1,0 +1,3706 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413",
+  "files": [],
+  "subMetas": {
+    "15005": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@15005",
+      "displayName": "",
+      "id": "15005",
+      "name": "Panel1_3.material",
+      "userData": {
+        "gltfIndex": 61
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "19430": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@19430",
+      "displayName": "",
+      "id": "19430",
+      "name": "Panel1_11_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_11.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "28178": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@28178",
+      "displayName": "",
+      "id": "28178",
+      "name": "hub2_46.material",
+      "userData": {
+        "gltfIndex": 51
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "33451": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@33451",
+      "displayName": "",
+      "id": "33451",
+      "name": "hub2.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "36206": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@36206",
+      "displayName": "",
+      "id": "36206",
+      "name": "Hub1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Hub1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "43181": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@43181",
+      "displayName": "",
+      "id": "43181",
+      "name": "Panel1_7_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_7.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "45540": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@45540",
+      "displayName": "",
+      "id": "45540",
+      "name": "Wheel_1.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "57310": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@57310",
+      "displayName": "",
+      "id": "57310",
+      "name": "Panel1.material",
+      "userData": {
+        "gltfIndex": 56
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "60852": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@60852",
+      "displayName": "",
+      "id": "60852",
+      "name": "Untitled_2_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Untitled_2.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "67822": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@67822",
+      "displayName": "",
+      "id": "67822",
+      "name": "hub2_23.material",
+      "userData": {
+        "gltfIndex": 28
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78337": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@78337",
+      "displayName": "",
+      "id": "78337",
+      "name": "Panel1_10_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_10.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78671": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@78671",
+      "displayName": "",
+      "id": "78671",
+      "name": "IMG_0553_1.material",
+      "userData": {
+        "gltfIndex": 59
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "86132": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@86132",
+      "displayName": "",
+      "id": "86132",
+      "name": "hub2_42.material",
+      "userData": {
+        "gltfIndex": 47
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "94272": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@94272",
+      "displayName": "",
+      "id": "94272",
+      "name": "hub2_1.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4a4ef": {
+      "importer": "gltf-mesh",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@4a4ef",
+      "displayName": "",
+      "id": "4a4ef",
+      "name": "Mesh1_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9d04": {
+      "importer": "gltf-mesh",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f9d04",
+      "displayName": "",
+      "id": "f9d04",
+      "name": "Mesh2_Material0.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "015b2": {
+      "importer": "gltf-mesh",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@015b2",
+      "displayName": "",
+      "id": "015b2",
+      "name": "Mesh3_Material0.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4fa0f": {
+      "importer": "gltf-mesh",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@4fa0f",
+      "displayName": "",
+      "id": "4fa0f",
+      "name": "Mesh4_Material0.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6bdd2": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@6bdd2",
+      "displayName": "",
+      "id": "6bdd2",
+      "name": "metal_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/metal.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a7ef0": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a7ef0",
+      "displayName": "",
+      "id": "a7ef0",
+      "name": "Wheel_1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Wheel_1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a829b": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a829b",
+      "displayName": "",
+      "id": "a829b",
+      "name": "Hub_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Hub.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b418d": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@b418d",
+      "displayName": "",
+      "id": "b418d",
+      "name": "hub2_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c04f1": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c04f1",
+      "displayName": "",
+      "id": "c04f1",
+      "name": "hub2_1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eac58": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@eac58",
+      "displayName": "",
+      "id": "eac58",
+      "name": "hub2_2_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_2.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0bb30": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0bb30",
+      "displayName": "",
+      "id": "0bb30",
+      "name": "hub2_3_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_3.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b8bc8": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@b8bc8",
+      "displayName": "",
+      "id": "b8bc8",
+      "name": "hub2_4_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_4.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4dc38": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@4dc38",
+      "displayName": "",
+      "id": "4dc38",
+      "name": "hub2_5_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_5.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2a8fb": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@2a8fb",
+      "displayName": "",
+      "id": "2a8fb",
+      "name": "hub2_6_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_6.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a9983": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a9983",
+      "displayName": "",
+      "id": "a9983",
+      "name": "hub2_7_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_7.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "436d5": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@436d5",
+      "displayName": "",
+      "id": "436d5",
+      "name": "hub2_8_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_8.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "474bf": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@474bf",
+      "displayName": "",
+      "id": "474bf",
+      "name": "hub2_9_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_9.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8b5df": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@8b5df",
+      "displayName": "",
+      "id": "8b5df",
+      "name": "hub2_10_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_10.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a21c3": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a21c3",
+      "displayName": "",
+      "id": "a21c3",
+      "name": "hub2_11_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_11.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cfa8b": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@cfa8b",
+      "displayName": "",
+      "id": "cfa8b",
+      "name": "hub2_12_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_12.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7ed2b": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@7ed2b",
+      "displayName": "",
+      "id": "7ed2b",
+      "name": "hub2_13_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_13.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61daa": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@61daa",
+      "displayName": "",
+      "id": "61daa",
+      "name": "hub2_14_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_14.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5e6e0": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@5e6e0",
+      "displayName": "",
+      "id": "5e6e0",
+      "name": "hub2_15_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_15.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "30a01": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@30a01",
+      "displayName": "",
+      "id": "30a01",
+      "name": "hub2_16_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_16.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cdc27": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@cdc27",
+      "displayName": "",
+      "id": "cdc27",
+      "name": "hub2_17_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_17.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4f022": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@4f022",
+      "displayName": "",
+      "id": "4f022",
+      "name": "hub2_18_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_18.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5b944": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@5b944",
+      "displayName": "",
+      "id": "5b944",
+      "name": "hub2_19_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_19.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f8333": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f8333",
+      "displayName": "",
+      "id": "f8333",
+      "name": "hub2_20_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_20.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84cc2": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@84cc2",
+      "displayName": "",
+      "id": "84cc2",
+      "name": "hub2_21_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_21.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9031c": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@9031c",
+      "displayName": "",
+      "id": "9031c",
+      "name": "hub2_22_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_22.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9501d": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@9501d",
+      "displayName": "",
+      "id": "9501d",
+      "name": "hub2_23_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_23.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "176a3": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@176a3",
+      "displayName": "",
+      "id": "176a3",
+      "name": "hub2_24_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_24.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c5db0": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c5db0",
+      "displayName": "",
+      "id": "c5db0",
+      "name": "hub2_25_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_25.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af4b4": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@af4b4",
+      "displayName": "",
+      "id": "af4b4",
+      "name": "hub2_26_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_26.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "82db2": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@82db2",
+      "displayName": "",
+      "id": "82db2",
+      "name": "hub2_27_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_27.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "851d0": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@851d0",
+      "displayName": "",
+      "id": "851d0",
+      "name": "hub2_28_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_28.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8d59d": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@8d59d",
+      "displayName": "",
+      "id": "8d59d",
+      "name": "hub2_29_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_29.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "70b04": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@70b04",
+      "displayName": "",
+      "id": "70b04",
+      "name": "hub2_30_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_30.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0074f": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0074f",
+      "displayName": "",
+      "id": "0074f",
+      "name": "hub2_31_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_31.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "17c8f": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@17c8f",
+      "displayName": "",
+      "id": "17c8f",
+      "name": "hub2_32_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_32.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3e18f": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3e18f",
+      "displayName": "",
+      "id": "3e18f",
+      "name": "hub2_33_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_33.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1490c": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@1490c",
+      "displayName": "",
+      "id": "1490c",
+      "name": "hub2_34_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_34.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ae1ff": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@ae1ff",
+      "displayName": "",
+      "id": "ae1ff",
+      "name": "hub2_35_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_35.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2db8": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f2db8",
+      "displayName": "",
+      "id": "f2db8",
+      "name": "hub2_36_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_36.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "44afb": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@44afb",
+      "displayName": "",
+      "id": "44afb",
+      "name": "hub2_37_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_37.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a8029": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a8029",
+      "displayName": "",
+      "id": "a8029",
+      "name": "hub2_38_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_38.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c0d5b": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c0d5b",
+      "displayName": "",
+      "id": "c0d5b",
+      "name": "hub2_39_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_39.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "69def": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@69def",
+      "displayName": "",
+      "id": "69def",
+      "name": "hub2_40_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_40.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1d7b0": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@1d7b0",
+      "displayName": "",
+      "id": "1d7b0",
+      "name": "hub2_41_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_41.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "83b42": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@83b42",
+      "displayName": "",
+      "id": "83b42",
+      "name": "hub2_42_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_42.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d001a": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@d001a",
+      "displayName": "",
+      "id": "d001a",
+      "name": "hub2_43_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_43.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dca9b": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@dca9b",
+      "displayName": "",
+      "id": "dca9b",
+      "name": "hub2_44_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_44.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6fa79": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@6fa79",
+      "displayName": "",
+      "id": "6fa79",
+      "name": "hub2_45_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_45.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f1687": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f1687",
+      "displayName": "",
+      "id": "f1687",
+      "name": "hub2_46_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_46.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5185a": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@5185a",
+      "displayName": "",
+      "id": "5185a",
+      "name": "hub2_47_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/hub2_47.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "be38e": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@be38e",
+      "displayName": "",
+      "id": "be38e",
+      "name": "IMG_0547_1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0547_1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "11b4d": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@11b4d",
+      "displayName": "",
+      "id": "11b4d",
+      "name": "seamless_wood_texture_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/seamless_wood_texture.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b750d": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@b750d",
+      "displayName": "",
+      "id": "b750d",
+      "name": "Panel1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3d260": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3d260",
+      "displayName": "",
+      "id": "3d260",
+      "name": "Panel1_1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f37b8": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f37b8",
+      "displayName": "",
+      "id": "f37b8",
+      "name": "Panel1_2_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_2.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85a43": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@85a43",
+      "displayName": "",
+      "id": "85a43",
+      "name": "IMG_0553_1_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0553_1.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8177c": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@8177c",
+      "displayName": "",
+      "id": "8177c",
+      "name": "Roof2_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Roof2.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6ee1e": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@6ee1e",
+      "displayName": "",
+      "id": "6ee1e",
+      "name": "Panel1_3_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_3.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cc341": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@cc341",
+      "displayName": "",
+      "id": "cc341",
+      "name": "Panel1_4_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_4.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f07d9": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f07d9",
+      "displayName": "",
+      "id": "f07d9",
+      "name": "IMG_0547_4_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0547_4.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "248c3": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@248c3",
+      "displayName": "",
+      "id": "248c3",
+      "name": "IMG_0547_3_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0547_3.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3acfc": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3acfc",
+      "displayName": "",
+      "id": "3acfc",
+      "name": "Panel1_5_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_5.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "14aa0": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@14aa0",
+      "displayName": "",
+      "id": "14aa0",
+      "name": "Panel1_6_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_6.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "365d8": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@365d8",
+      "displayName": "",
+      "id": "365d8",
+      "name": "Panel1_8_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_8.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2ff25": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@2ff25",
+      "displayName": "",
+      "id": "2ff25",
+      "name": "Panel1_9_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_9.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "74beb": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@74beb",
+      "displayName": "",
+      "id": "74beb",
+      "name": "Panel1_12_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_12.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f72dd": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f72dd",
+      "displayName": "",
+      "id": "f72dd",
+      "name": "Panel1_13_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_13.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0549f": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0549f",
+      "displayName": "",
+      "id": "0549f",
+      "name": "Panel1_14_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_14.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c709": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@1c709",
+      "displayName": "",
+      "id": "1c709",
+      "name": "Panel1_15_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_15.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "35c56": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@35c56",
+      "displayName": "",
+      "id": "35c56",
+      "name": "Panel1_16_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_16.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b6e53": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@b6e53",
+      "displayName": "",
+      "id": "b6e53",
+      "name": "Panel1_17_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_17.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "805fc": {
+      "importer": "texture",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@805fc",
+      "displayName": "",
+      "id": "805fc",
+      "name": "Panel1_18_texture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_18.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16ef1": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@16ef1",
+      "displayName": "",
+      "id": "16ef1",
+      "name": "metal.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c32d7": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c32d7",
+      "displayName": "",
+      "id": "c32d7",
+      "name": "Hub.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f7d20": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f7d20",
+      "displayName": "",
+      "id": "f7d20",
+      "name": "Untitled_2.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6d507": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@6d507",
+      "displayName": "",
+      "id": "6d507",
+      "name": "hub2_2.material",
+      "userData": {
+        "gltfIndex": 6
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2a4bb": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@2a4bb",
+      "displayName": "",
+      "id": "2a4bb",
+      "name": "hub2_3.material",
+      "userData": {
+        "gltfIndex": 7
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3545f": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3545f",
+      "displayName": "",
+      "id": "3545f",
+      "name": "hub2_4.material",
+      "userData": {
+        "gltfIndex": 8
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f2ded": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f2ded",
+      "displayName": "",
+      "id": "f2ded",
+      "name": "hub2_5.material",
+      "userData": {
+        "gltfIndex": 9
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6b65": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@d6b65",
+      "displayName": "",
+      "id": "d6b65",
+      "name": "hub2_6.material",
+      "userData": {
+        "gltfIndex": 10
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a4d99": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a4d99",
+      "displayName": "",
+      "id": "a4d99",
+      "name": "hub2_7.material",
+      "userData": {
+        "gltfIndex": 11
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f05c": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@2f05c",
+      "displayName": "",
+      "id": "2f05c",
+      "name": "hub2_8.material",
+      "userData": {
+        "gltfIndex": 12
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7387b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@7387b",
+      "displayName": "",
+      "id": "7387b",
+      "name": "Hub1.material",
+      "userData": {
+        "gltfIndex": 13
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e89b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@6e89b",
+      "displayName": "",
+      "id": "6e89b",
+      "name": "hub2_9.material",
+      "userData": {
+        "gltfIndex": 14
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a981a": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a981a",
+      "displayName": "",
+      "id": "a981a",
+      "name": "hub2_10.material",
+      "userData": {
+        "gltfIndex": 15
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c865c": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c865c",
+      "displayName": "",
+      "id": "c865c",
+      "name": "hub2_11.material",
+      "userData": {
+        "gltfIndex": 16
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ef859": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@ef859",
+      "displayName": "",
+      "id": "ef859",
+      "name": "hub2_12.material",
+      "userData": {
+        "gltfIndex": 17
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "719b6": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@719b6",
+      "displayName": "",
+      "id": "719b6",
+      "name": "hub2_13.material",
+      "userData": {
+        "gltfIndex": 18
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "28f2b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@28f2b",
+      "displayName": "",
+      "id": "28f2b",
+      "name": "hub2_14.material",
+      "userData": {
+        "gltfIndex": 19
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5f26f": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@5f26f",
+      "displayName": "",
+      "id": "5f26f",
+      "name": "hub2_15.material",
+      "userData": {
+        "gltfIndex": 20
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dd0c7": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@dd0c7",
+      "displayName": "",
+      "id": "dd0c7",
+      "name": "hub2_16.material",
+      "userData": {
+        "gltfIndex": 21
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "10d52": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@10d52",
+      "displayName": "",
+      "id": "10d52",
+      "name": "hub2_17.material",
+      "userData": {
+        "gltfIndex": 22
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0d0ed": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0d0ed",
+      "displayName": "",
+      "id": "0d0ed",
+      "name": "hub2_18.material",
+      "userData": {
+        "gltfIndex": 23
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5ac28": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@5ac28",
+      "displayName": "",
+      "id": "5ac28",
+      "name": "hub2_19.material",
+      "userData": {
+        "gltfIndex": 24
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c414d": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c414d",
+      "displayName": "",
+      "id": "c414d",
+      "name": "hub2_20.material",
+      "userData": {
+        "gltfIndex": 25
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f0bef": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f0bef",
+      "displayName": "",
+      "id": "f0bef",
+      "name": "hub2_21.material",
+      "userData": {
+        "gltfIndex": 26
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4070b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@4070b",
+      "displayName": "",
+      "id": "4070b",
+      "name": "hub2_22.material",
+      "userData": {
+        "gltfIndex": 27
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3f7bb": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3f7bb",
+      "displayName": "",
+      "id": "3f7bb",
+      "name": "hub2_24.material",
+      "userData": {
+        "gltfIndex": 29
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2cdbd": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@2cdbd",
+      "displayName": "",
+      "id": "2cdbd",
+      "name": "hub2_25.material",
+      "userData": {
+        "gltfIndex": 30
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "8e65b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@8e65b",
+      "displayName": "",
+      "id": "8e65b",
+      "name": "hub2_26.material",
+      "userData": {
+        "gltfIndex": 31
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "15e80": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@15e80",
+      "displayName": "",
+      "id": "15e80",
+      "name": "hub2_27.material",
+      "userData": {
+        "gltfIndex": 32
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f23ca": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f23ca",
+      "displayName": "",
+      "id": "f23ca",
+      "name": "hub2_28.material",
+      "userData": {
+        "gltfIndex": 33
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "361bc": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@361bc",
+      "displayName": "",
+      "id": "361bc",
+      "name": "hub2_29.material",
+      "userData": {
+        "gltfIndex": 34
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f0a63": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f0a63",
+      "displayName": "",
+      "id": "f0a63",
+      "name": "hub2_30.material",
+      "userData": {
+        "gltfIndex": 35
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "62efd": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@62efd",
+      "displayName": "",
+      "id": "62efd",
+      "name": "hub2_31.material",
+      "userData": {
+        "gltfIndex": 36
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9169c": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@9169c",
+      "displayName": "",
+      "id": "9169c",
+      "name": "hub2_32.material",
+      "userData": {
+        "gltfIndex": 37
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f4575": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f4575",
+      "displayName": "",
+      "id": "f4575",
+      "name": "hub2_33.material",
+      "userData": {
+        "gltfIndex": 38
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "239d3": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@239d3",
+      "displayName": "",
+      "id": "239d3",
+      "name": "hub2_34.material",
+      "userData": {
+        "gltfIndex": 39
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "688b5": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@688b5",
+      "displayName": "",
+      "id": "688b5",
+      "name": "hub2_35.material",
+      "userData": {
+        "gltfIndex": 40
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c9611": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@c9611",
+      "displayName": "",
+      "id": "c9611",
+      "name": "hub2_36.material",
+      "userData": {
+        "gltfIndex": 41
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "792ba": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@792ba",
+      "displayName": "",
+      "id": "792ba",
+      "name": "hub2_37.material",
+      "userData": {
+        "gltfIndex": 42
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "04c3c": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@04c3c",
+      "displayName": "",
+      "id": "04c3c",
+      "name": "hub2_38.material",
+      "userData": {
+        "gltfIndex": 43
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d6d08": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@d6d08",
+      "displayName": "",
+      "id": "d6d08",
+      "name": "hub2_39.material",
+      "userData": {
+        "gltfIndex": 44
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "862bc": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@862bc",
+      "displayName": "",
+      "id": "862bc",
+      "name": "hub2_40.material",
+      "userData": {
+        "gltfIndex": 45
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "351dc": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@351dc",
+      "displayName": "",
+      "id": "351dc",
+      "name": "hub2_41.material",
+      "userData": {
+        "gltfIndex": 46
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "85a5d": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@85a5d",
+      "displayName": "",
+      "id": "85a5d",
+      "name": "hub2_43.material",
+      "userData": {
+        "gltfIndex": 48
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e61f7": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@e61f7",
+      "displayName": "",
+      "id": "e61f7",
+      "name": "hub2_44.material",
+      "userData": {
+        "gltfIndex": 49
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9d59d": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@9d59d",
+      "displayName": "",
+      "id": "9d59d",
+      "name": "hub2_45.material",
+      "userData": {
+        "gltfIndex": 50
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "79f11": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@79f11",
+      "displayName": "",
+      "id": "79f11",
+      "name": "hub2_47.material",
+      "userData": {
+        "gltfIndex": 52
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "332cb": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@332cb",
+      "displayName": "",
+      "id": "332cb",
+      "name": "IMG_0547_1.material",
+      "userData": {
+        "gltfIndex": 53
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0602a": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0602a",
+      "displayName": "",
+      "id": "0602a",
+      "name": "FrontColor.material",
+      "userData": {
+        "gltfIndex": 54
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e3240": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@e3240",
+      "displayName": "",
+      "id": "e3240",
+      "name": "seamless_wood_texture.material",
+      "userData": {
+        "gltfIndex": 55
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0afad": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0afad",
+      "displayName": "",
+      "id": "0afad",
+      "name": "Panel1_1.material",
+      "userData": {
+        "gltfIndex": 57
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "33f5b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@33f5b",
+      "displayName": "",
+      "id": "33f5b",
+      "name": "Panel1_2.material",
+      "userData": {
+        "gltfIndex": 58
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3ba61": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3ba61",
+      "displayName": "",
+      "id": "3ba61",
+      "name": "Roof2.material",
+      "userData": {
+        "gltfIndex": 60
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6aae0": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@6aae0",
+      "displayName": "",
+      "id": "6aae0",
+      "name": "Panel1_4.material",
+      "userData": {
+        "gltfIndex": 62
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c239": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@3c239",
+      "displayName": "",
+      "id": "3c239",
+      "name": "IMG_0547_4.material",
+      "userData": {
+        "gltfIndex": 63
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2b503": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@2b503",
+      "displayName": "",
+      "id": "2b503",
+      "name": "IMG_0547_3.material",
+      "userData": {
+        "gltfIndex": 64
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f14bf": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f14bf",
+      "displayName": "",
+      "id": "f14bf",
+      "name": "Panel1_5.material",
+      "userData": {
+        "gltfIndex": 65
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a3b4c": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@a3b4c",
+      "displayName": "",
+      "id": "a3b4c",
+      "name": "Panel1_6.material",
+      "userData": {
+        "gltfIndex": 66
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0c094": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@0c094",
+      "displayName": "",
+      "id": "0c094",
+      "name": "Panel1_7.material",
+      "userData": {
+        "gltfIndex": 67
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bbf56": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@bbf56",
+      "displayName": "",
+      "id": "bbf56",
+      "name": "Panel1_8.material",
+      "userData": {
+        "gltfIndex": 68
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "52f8b": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@52f8b",
+      "displayName": "",
+      "id": "52f8b",
+      "name": "Panel1_9.material",
+      "userData": {
+        "gltfIndex": 69
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4412c": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@4412c",
+      "displayName": "",
+      "id": "4412c",
+      "name": "Panel1_10.material",
+      "userData": {
+        "gltfIndex": 70
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "44cbc": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@44cbc",
+      "displayName": "",
+      "id": "44cbc",
+      "name": "Panel1_11.material",
+      "userData": {
+        "gltfIndex": 71
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "333e7": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@333e7",
+      "displayName": "",
+      "id": "333e7",
+      "name": "Panel1_12.material",
+      "userData": {
+        "gltfIndex": 72
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f370f": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@f370f",
+      "displayName": "",
+      "id": "f370f",
+      "name": "Panel1_13.material",
+      "userData": {
+        "gltfIndex": 73
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b9e3a": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@b9e3a",
+      "displayName": "",
+      "id": "b9e3a",
+      "name": "Panel1_14.material",
+      "userData": {
+        "gltfIndex": 74
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac768": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@ac768",
+      "displayName": "",
+      "id": "ac768",
+      "name": "Panel1_15.material",
+      "userData": {
+        "gltfIndex": 75
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b535": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@9b535",
+      "displayName": "",
+      "id": "9b535",
+      "name": "Panel1_16.material",
+      "userData": {
+        "gltfIndex": 76
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1c13e": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@1c13e",
+      "displayName": "",
+      "id": "1c13e",
+      "name": "Panel1_17.material",
+      "userData": {
+        "gltfIndex": 77
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "875f4": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@875f4",
+      "displayName": "",
+      "id": "875f4",
+      "name": "Panel1_18.material",
+      "userData": {
+        "gltfIndex": 78
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61d45": {
+      "importer": "gltf-material",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@61d45",
+      "displayName": "",
+      "id": "61d45",
+      "name": "Color_E04.material",
+      "userData": {
+        "gltfIndex": 79
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5096f": {
+      "importer": "gltf-scene",
+      "uuid": "a58a1ad5-4700-4691-87c9-a40041fce413@5096f",
+      "displayName": "",
+      "id": "5096f",
+      "name": "ChinaCart.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "metal_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/metal.jpg"
+      },
+      {
+        "name": "Wheel_1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Wheel_1.jpg"
+      },
+      {
+        "name": "Hub_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Hub.jpg"
+      },
+      {
+        "name": "Untitled_2_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Untitled_2.jpg"
+      },
+      {
+        "name": "hub2_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2.jpg"
+      },
+      {
+        "name": "hub2_1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_1.jpg"
+      },
+      {
+        "name": "hub2_2_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_2.jpg"
+      },
+      {
+        "name": "hub2_3_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_3.jpg"
+      },
+      {
+        "name": "hub2_4_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_4.jpg"
+      },
+      {
+        "name": "hub2_5_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_5.jpg"
+      },
+      {
+        "name": "hub2_6_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_6.jpg"
+      },
+      {
+        "name": "hub2_7_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_7.jpg"
+      },
+      {
+        "name": "hub2_8_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_8.jpg"
+      },
+      {
+        "name": "Hub1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Hub1.jpg"
+      },
+      {
+        "name": "hub2_9_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_9.jpg"
+      },
+      {
+        "name": "hub2_10_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_10.jpg"
+      },
+      {
+        "name": "hub2_11_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_11.jpg"
+      },
+      {
+        "name": "hub2_12_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_12.jpg"
+      },
+      {
+        "name": "hub2_13_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_13.jpg"
+      },
+      {
+        "name": "hub2_14_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_14.jpg"
+      },
+      {
+        "name": "hub2_15_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_15.jpg"
+      },
+      {
+        "name": "hub2_16_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_16.jpg"
+      },
+      {
+        "name": "hub2_17_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_17.jpg"
+      },
+      {
+        "name": "hub2_18_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_18.jpg"
+      },
+      {
+        "name": "hub2_19_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_19.jpg"
+      },
+      {
+        "name": "hub2_20_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_20.jpg"
+      },
+      {
+        "name": "hub2_21_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_21.jpg"
+      },
+      {
+        "name": "hub2_22_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_22.jpg"
+      },
+      {
+        "name": "hub2_23_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_23.jpg"
+      },
+      {
+        "name": "hub2_24_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_24.jpg"
+      },
+      {
+        "name": "hub2_25_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_25.jpg"
+      },
+      {
+        "name": "hub2_26_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_26.jpg"
+      },
+      {
+        "name": "hub2_27_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_27.jpg"
+      },
+      {
+        "name": "hub2_28_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_28.jpg"
+      },
+      {
+        "name": "hub2_29_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_29.jpg"
+      },
+      {
+        "name": "hub2_30_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_30.jpg"
+      },
+      {
+        "name": "hub2_31_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_31.jpg"
+      },
+      {
+        "name": "hub2_32_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_32.jpg"
+      },
+      {
+        "name": "hub2_33_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_33.jpg"
+      },
+      {
+        "name": "hub2_34_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_34.jpg"
+      },
+      {
+        "name": "hub2_35_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_35.jpg"
+      },
+      {
+        "name": "hub2_36_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_36.jpg"
+      },
+      {
+        "name": "hub2_37_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_37.jpg"
+      },
+      {
+        "name": "hub2_38_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_38.jpg"
+      },
+      {
+        "name": "hub2_39_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_39.jpg"
+      },
+      {
+        "name": "hub2_40_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_40.jpg"
+      },
+      {
+        "name": "hub2_41_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_41.jpg"
+      },
+      {
+        "name": "hub2_42_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_42.jpg"
+      },
+      {
+        "name": "hub2_43_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_43.jpg"
+      },
+      {
+        "name": "hub2_44_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_44.jpg"
+      },
+      {
+        "name": "hub2_45_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_45.jpg"
+      },
+      {
+        "name": "hub2_46_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_46.jpg"
+      },
+      {
+        "name": "hub2_47_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/hub2_47.jpg"
+      },
+      {
+        "name": "IMG_0547_1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0547_1.jpg"
+      },
+      {
+        "name": "seamless_wood_texture_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/seamless_wood_texture.jpg"
+      },
+      {
+        "name": "Panel1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1.jpg"
+      },
+      {
+        "name": "Panel1_1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_1.jpg"
+      },
+      {
+        "name": "Panel1_2_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_2.jpg"
+      },
+      {
+        "name": "IMG_0553_1_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0553_1.jpg"
+      },
+      {
+        "name": "Roof2_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Roof2.jpg"
+      },
+      {
+        "name": "Panel1_3_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_3.jpg"
+      },
+      {
+        "name": "Panel1_4_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_4.jpg"
+      },
+      {
+        "name": "IMG_0547_4_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0547_4.jpg"
+      },
+      {
+        "name": "IMG_0547_3_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/IMG_0547_3.jpg"
+      },
+      {
+        "name": "Panel1_5_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_5.jpg"
+      },
+      {
+        "name": "Panel1_6_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_6.jpg"
+      },
+      {
+        "name": "Panel1_7_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_7.jpg"
+      },
+      {
+        "name": "Panel1_8_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_8.jpg"
+      },
+      {
+        "name": "Panel1_9_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_9.jpg"
+      },
+      {
+        "name": "Panel1_10_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_10.jpg"
+      },
+      {
+        "name": "Panel1_11_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_11.jpg"
+      },
+      {
+        "name": "Panel1_12_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_12.jpg"
+      },
+      {
+        "name": "Panel1_13_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_13.jpg"
+      },
+      {
+        "name": "Panel1_14_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_14.jpg"
+      },
+      {
+        "name": "Panel1_15_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_15.jpg"
+      },
+      {
+        "name": "Panel1_16_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_16.jpg"
+      },
+      {
+        "name": "Panel1_17_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_17.jpg"
+      },
+      {
+        "name": "Panel1_18_texture",
+        "uri": "db://assets/Models/Skechfab/china-cart/textures/Panel1_18.jpg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "Model",
+          "children": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        {
+          "name": "Group1",
+          "children": [
+            2
+          ]
+        },
+        {
+          "name": "Mesh1",
+          "children": []
+        },
+        {
+          "name": "Group2",
+          "children": [
+            4
+          ]
+        },
+        {
+          "name": "Mesh2",
+          "children": []
+        },
+        {
+          "name": "Group3",
+          "children": [
+            6
+          ]
+        },
+        {
+          "name": "Mesh3",
+          "children": []
+        },
+        {
+          "name": "Mesh4",
+          "children": []
+        }
+      ]
+    },
+    "redirect": "a58a1ad5-4700-4691-87c9-a40041fce413@5096f",
+    "assetFinder": {
+      "meshes": [
+        "a58a1ad5-4700-4691-87c9-a40041fce413@4a4ef",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f9d04",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@015b2",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@4fa0f"
+      ],
+      "skeletons": [],
+      "textures": [
+        "a58a1ad5-4700-4691-87c9-a40041fce413@6bdd2",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a7ef0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a829b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@60852",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@b418d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c04f1",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@eac58",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0bb30",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@b8bc8",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@4dc38",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@2a8fb",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a9983",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@436d5",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@36206",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@474bf",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@8b5df",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a21c3",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@cfa8b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@7ed2b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@61daa",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@5e6e0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@30a01",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@cdc27",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@4f022",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@5b944",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f8333",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@84cc2",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@9031c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@9501d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@176a3",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c5db0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@af4b4",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@82db2",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@851d0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@8d59d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@70b04",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0074f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@17c8f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3e18f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@1490c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@ae1ff",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f2db8",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@44afb",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a8029",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c0d5b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@69def",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@1d7b0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@83b42",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@d001a",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@dca9b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@6fa79",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f1687",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@5185a",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@be38e",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@11b4d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@b750d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3d260",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f37b8",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@85a43",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@8177c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@6ee1e",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@cc341",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f07d9",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@248c3",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3acfc",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@14aa0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@43181",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@365d8",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@2ff25",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@78337",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@19430",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@74beb",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f72dd",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0549f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@1c709",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@35c56",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@b6e53",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@805fc"
+      ],
+      "materials": [
+        "a58a1ad5-4700-4691-87c9-a40041fce413@16ef1",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@45540",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c32d7",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f7d20",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@33451",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@94272",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@6d507",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@2a4bb",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3545f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f2ded",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@d6b65",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a4d99",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@2f05c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@7387b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@6e89b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a981a",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c865c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@ef859",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@719b6",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@28f2b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@5f26f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@dd0c7",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@10d52",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0d0ed",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@5ac28",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c414d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f0bef",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@4070b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@67822",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3f7bb",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@2cdbd",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@8e65b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@15e80",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f23ca",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@361bc",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f0a63",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@62efd",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@9169c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f4575",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@239d3",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@688b5",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@c9611",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@792ba",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@04c3c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@d6d08",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@862bc",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@351dc",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@86132",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@85a5d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@e61f7",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@9d59d",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@28178",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@79f11",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@332cb",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0602a",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@e3240",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@57310",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0afad",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@33f5b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@78671",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3ba61",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@15005",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@6aae0",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@3c239",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@2b503",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f14bf",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@a3b4c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@0c094",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@bbf56",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@52f8b",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@4412c",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@44cbc",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@333e7",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@f370f",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@b9e3a",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@ac768",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@9b535",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@1c13e",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@875f4",
+        "a58a1ad5-4700-4691-87c9-a40041fce413@61d45"
+      ],
+      "scenes": [
+        "a58a1ad5-4700-4691-87c9-a40041fce413@5096f"
+      ]
+    }
+  }
+}

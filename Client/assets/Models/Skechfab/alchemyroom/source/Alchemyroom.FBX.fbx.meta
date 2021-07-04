@@ -1,0 +1,485 @@
+{
+  "ver": "2.0.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3",
+  "files": [],
+  "subMetas": {
+    "11873": {
+      "importer": "gltf-material",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@11873",
+      "displayName": "",
+      "id": "11873",
+      "name": "Material #0.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3ae45": {
+      "importer": "gltf-mesh",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@3ae45",
+      "displayName": "",
+      "id": "3ae45",
+      "name": "Object076.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6a5b3": {
+      "importer": "gltf-mesh",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@6a5b3",
+      "displayName": "",
+      "id": "6a5b3",
+      "name": "rattan007.mesh",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c441b": {
+      "importer": "gltf-mesh",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@c441b",
+      "displayName": "",
+      "id": "c441b",
+      "name": "Object095.mesh",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9b659": {
+      "importer": "gltf-mesh",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@9b659",
+      "displayName": "",
+      "id": "9b659",
+      "name": "Object096.mesh",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0ee70": {
+      "importer": "gltf-mesh",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@0ee70",
+      "displayName": "",
+      "id": "0ee70",
+      "name": "Plane041.mesh",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "caaf8": {
+      "importer": "gltf-mesh",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@caaf8",
+      "displayName": "",
+      "id": "caaf8",
+      "name": "Table001.mesh",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2f47a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@2f47a",
+      "displayName": "",
+      "id": "2f47a",
+      "name": "Map #45.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "baf20": {
+      "importer": "gltf-embeded-image",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@baf20",
+      "displayName": "",
+      "id": "baf20",
+      "name": "Map #58.image",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".png",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0e838": {
+      "importer": "texture",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@0e838",
+      "displayName": "",
+      "id": "0e838",
+      "name": "Map #45.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/alchemyroom/textures/001.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5b9e": {
+      "importer": "texture",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@d5b9e",
+      "displayName": "",
+      "id": "d5b9e",
+      "name": "Map #61.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/alchemyroom/textures/gourd.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "35edc": {
+      "importer": "texture",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@35edc",
+      "displayName": "",
+      "id": "35edc",
+      "name": "Map #58.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/alchemyroom/textures/Alchemy_room_map.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2c8ed": {
+      "importer": "texture",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@2c8ed",
+      "displayName": "",
+      "id": "2c8ed",
+      "name": "Map #66.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/alchemyroom/textures/vine.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "780dc": {
+      "importer": "texture",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@780dc",
+      "displayName": "",
+      "id": "780dc",
+      "name": "Map #65.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/alchemyroom/textures/vine.png"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d89c2": {
+      "importer": "texture",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@d89c2",
+      "displayName": "",
+      "id": "d89c2",
+      "name": "Map #57.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Skechfab/alchemyroom/textures/001.jpg"
+      },
+      "ver": "1.0.21",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7fef7": {
+      "importer": "gltf-material",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@7fef7",
+      "displayName": "",
+      "id": "7fef7",
+      "name": "Censer.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d5616": {
+      "importer": "gltf-material",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@d5616",
+      "displayName": "",
+      "id": "d5616",
+      "name": "Material #68.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b79ee": {
+      "importer": "gltf-material",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@b79ee",
+      "displayName": "",
+      "id": "b79ee",
+      "name": "Gourd.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d806d": {
+      "importer": "gltf-material",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@d806d",
+      "displayName": "",
+      "id": "d806d",
+      "name": "vine.material",
+      "userData": {
+        "gltfIndex": 4
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "66e18": {
+      "importer": "gltf-material",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@66e18",
+      "displayName": "",
+      "id": "66e18",
+      "name": "Material #85.material",
+      "userData": {
+        "gltfIndex": 5
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "454f5": {
+      "importer": "gltf-scene",
+      "uuid": "067e87f6-cbbb-4473-976a-a1ed49501fc3@454f5",
+      "displayName": "",
+      "id": "454f5",
+      "name": "Alchemyroom.FBX.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Map #45",
+        "remap": "db://assets/Models/Skechfab/alchemyroom/textures/001.jpg",
+        "uri": "067e87f6-cbbb-4473-976a-a1ed49501fc3@2f47a"
+      },
+      {
+        "name": "Map #61",
+        "uri": "db://assets/Models/Skechfab/alchemyroom/textures/gourd.jpg"
+      },
+      {
+        "name": "Map #58",
+        "remap": "db://assets/Models/Skechfab/alchemyroom/textures/Alchemy_room_map.jpg",
+        "uri": "067e87f6-cbbb-4473-976a-a1ed49501fc3@baf20"
+      },
+      {
+        "name": "Map #66",
+        "uri": "db://assets/Models/Skechfab/alchemyroom/textures/vine.png"
+      },
+      {
+        "name": "Map #65",
+        "uri": "db://assets/Models/Skechfab/alchemyroom/textures/vine.png"
+      },
+      {
+        "name": "Map #57",
+        "uri": "db://assets/Models/Skechfab/alchemyroom/textures/001.jpg"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "info": {
+      "nodes": [
+        {
+          "name": "Object076",
+          "children": []
+        },
+        {
+          "name": "rattan007",
+          "children": []
+        },
+        {
+          "name": "Object095",
+          "children": []
+        },
+        {
+          "name": "Object096",
+          "children": []
+        },
+        {
+          "name": "Plane041",
+          "children": []
+        },
+        {
+          "name": "Table001",
+          "children": []
+        }
+      ]
+    },
+    "redirect": "067e87f6-cbbb-4473-976a-a1ed49501fc3@454f5",
+    "assetFinder": {
+      "meshes": [
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@3ae45",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@6a5b3",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@c441b",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@9b659",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@0ee70",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@caaf8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@0e838",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@d5b9e",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@35edc",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@2c8ed",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@780dc",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@d89c2"
+      ],
+      "materials": [
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@7fef7",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@d5616",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@b79ee",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@11873",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@d806d",
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@66e18"
+      ],
+      "scenes": [
+        "067e87f6-cbbb-4473-976a-a1ed49501fc3@454f5"
+      ]
+    }
+  }
+}
