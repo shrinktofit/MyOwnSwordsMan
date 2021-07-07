@@ -104,6 +104,17 @@ export class SetupHeroNewGenAnim extends cc.Component {
 
         const jumpToIdle = graph.connect(jumpPoseNode, idleGraph);
         jumpToIdle.exitCondition = 1.0;
+        const jumpToIdleCondition = jumpToIdle.condition = new cc.animation.Condition();
+        jumpToIdleCondition.bindProperty('lhs', GRAPH_VAR_NAME_SPEED);
+        jumpToIdleCondition.operator = cc.animation.Condition.Operator.EQUAL_TO;
+        jumpToIdleCondition.rhs = 0.0;
+
+        const jumpToMovement = graph.connect(jumpPoseNode, movementGraph);
+        jumpToMovement.exitCondition = 1.0;
+        const jumpToMovementCondition = jumpToMovement.condition = new cc.animation.Condition();
+        jumpToMovementCondition.bindProperty('lhs', GRAPH_VAR_NAME_SPEED);
+        jumpToMovementCondition.operator = cc.animation.Condition.Operator.GREATER_THAN;
+        jumpToMovementCondition.rhs = 0.0;
     }
 
     private _setupMovementGraph (graph: cc.animation.PoseSubgraph) {
