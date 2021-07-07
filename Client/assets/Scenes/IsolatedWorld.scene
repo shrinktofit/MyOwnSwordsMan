@@ -610,6 +610,10 @@
       {
         "__uuid__": "22200d8f-5b8c-4e8e-8a01-68b1f8826b70@243b0",
         "__expectedType__": "cc.AnimationClip"
+      },
+      {
+        "__uuid__": "65027a01-a5ee-48a7-81fd-187a166be61f@43826",
+        "__expectedType__": "cc.AnimationClip"
       }
     ],
     "characterStatus": {
@@ -5716,7 +5720,7 @@
         "__id__": 389
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 391

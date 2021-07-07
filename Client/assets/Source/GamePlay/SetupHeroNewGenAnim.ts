@@ -1,10 +1,12 @@
 
 import * as cc from 'cc';
-import { CharacterStatus } from './CharacterStatus';
+import { CharacterStatus, CharacterStatusEventType } from './CharacterStatus';
 
 const GRAPH_VAR_NAME_SPEED = 'speed';
 
 const GRAPH_VAR_IDLE_RANDOM = 'idleRandom';
+
+const GRAPH_VAR_JUMP = 'jump';
 
 @cc._decorator.ccclass
 export class SetupHeroNewGenAnim extends cc.Component {
@@ -26,6 +28,20 @@ export class SetupHeroNewGenAnim extends cc.Component {
         const { velocity } = characterStatus;
         const speed = cc.math.Vec3.len(velocity);
         this._newGenAnim.setValue(GRAPH_VAR_NAME_SPEED, speed);
+        this.characterStatus.eventTarget.on(
+            CharacterStatusEventType.JUMP_STARTED,
+            this._onJumpStarted,
+            this,
+        );
+    }
+
+    public onDestroy () {
+        super.onDestroy?.();
+        this.characterStatus.eventTarget.off(
+            CharacterStatusEventType.JUMP_STARTED,
+            this._onJumpStarted,
+            this,
+        );
     }
 
     private declare _newGenAnim: cc.animation.NewGenAnim;
@@ -33,8 +49,9 @@ export class SetupHeroNewGenAnim extends cc.Component {
     private _createPoseGraph () {
         const poseGraph = new cc.animation.PoseGraph();
 
-        poseGraph.addVariable(GRAPH_VAR_NAME_SPEED, 0.0);
-        poseGraph.addVariable(GRAPH_VAR_IDLE_RANDOM, 0.0);
+        poseGraph.addVariable(GRAPH_VAR_NAME_SPEED, cc.animation.VariableType.NUMBER, 0.0);
+        poseGraph.addVariable(GRAPH_VAR_IDLE_RANDOM, cc.animation.VariableType.NUMBER, 0.0);
+        poseGraph.addVariable(GRAPH_VAR_JUMP, cc.animation.VariableType.BOOLEAN, false);
 
         const mainLayer = poseGraph.addLayer();
         this._setupMainLayer(mainLayer);
@@ -73,6 +90,20 @@ export class SetupHeroNewGenAnim extends cc.Component {
         idleSelfTransition.duration = 0.0;
 
         graph.connect(graph.entryNode, idleGraph);
+
+        const jumpPoseNode = createPoseNodeFromClip(graph, this._getClip('Jumping Up'));
+        const onJumpExit = jumpPoseNode.onExit = new cc.EventHandler();
+        onJumpExit.target = this.node;
+        onJumpExit.component = cc.js.getClassName(SetupHeroNewGenAnim);
+        onJumpExit.handler = '_onJumpPoseExit';
+
+        const anyToJump = graph.connect(graph.anyNode, jumpPoseNode);
+        const anyToJumpCondition = anyToJump.condition = new cc.animation.Condition();
+        anyToJumpCondition.operator = cc.animation.Condition.Operator.BE_TRUE;
+        anyToJumpCondition.bindProperty('lhs', GRAPH_VAR_JUMP);
+
+        const jumpToIdle = graph.connect(jumpPoseNode, idleGraph);
+        jumpToIdle.exitCondition = 1.0;
     }
 
     private _setupMovementGraph (graph: cc.animation.PoseSubgraph) {
@@ -130,6 +161,15 @@ export class SetupHeroNewGenAnim extends cc.Component {
             throw new Error(`Missing clip ${name}`);
         }
         return clip;
+    }
+
+    private _onJumpStarted () {
+        this._newGenAnim.setValue(GRAPH_VAR_JUMP, true);
+    }
+
+    private _onJumpPoseExit () {
+        this.characterStatus.jumping = false;
+        this._newGenAnim.setValue(GRAPH_VAR_JUMP, false);
     }
 }
 

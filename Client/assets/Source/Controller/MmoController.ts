@@ -136,14 +136,17 @@ export class MmoController extends cc.Component {
     private _onKeyDown (event: cc.EventKeyboard) {
         const { keyCode } = event;
         if (keyCode in this._keyPressed) {
-            this._keyPressed[keyCode].press();
+            this._keyPressed[keyCode as keyof MmoController['_keyPressed']].press();
+        }
+        if (keyCode === cc.SystemEvent.KeyCode.SPACE) {
+            this.characterStatus.jumping = true;
         }
     }
 
     private _onKeyUp (event: cc.EventKeyboard) {
         const { keyCode } = event;
         if (keyCode in this._keyPressed) {
-            this._keyPressed[keyCode].release();
+            this._keyPressed[keyCode as keyof MmoController['_keyPressed']].release();
         }
     }
 }

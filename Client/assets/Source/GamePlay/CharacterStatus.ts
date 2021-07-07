@@ -4,8 +4,34 @@ import * as cc from 'cc';
 
 const VELOCITY_ERROR = 1e-3;
 
+export enum CharacterStatusEventType {
+    JUMP_STARTED = 'jump-started',
+    JUMP_FINISHED = 'jump-finished',
+}
+
 @cc._decorator.ccclass
 export class CharacterStatus extends cc.Component {
+    get eventTarget () {
+        return this._eventTarget;
+    }
+
+    get jumping () {
+        return this._jumping;
+    }
+
+    set jumping (value) {
+        const before = this.jumping;
+        this._jumping = value;
+        if (before !== value) {
+            this._eventTarget.emit(
+                value
+                    ? CharacterStatusEventType.JUMP_STARTED
+                    : CharacterStatusEventType.JUMP_FINISHED,
+                this,
+            );
+        }
+    }
+
     get velocity (): Readonly<cc.math.Vec3> {
         return this._velocity;
     }
@@ -41,6 +67,10 @@ export class CharacterStatus extends cc.Component {
     private _velocity = new cc.math.Vec3();
 
     private _targetVelocity = new cc.math.Vec3();
+
+    private _jumping = false;
+
+    private _eventTarget = new cc.EventTarget();
 }
 
 function slowMoveVec3 (

@@ -33,8 +33,8 @@ export class SetupJeerkoaNewGenAnim extends cc.Component {
     private _createPoseGraph () {
         const poseGraph = new cc.animation.PoseGraph();
 
-        poseGraph.addVariable(GRAPH_VAR_NAME_SPEED, 0.0);
-        poseGraph.addVariable(GRAPH_VAR_IDLE_RANDOM, 0.0);
+        poseGraph.addVariable(GRAPH_VAR_NAME_SPEED, cc.animation.VariableType.NUMBER, 0.0);
+        poseGraph.addVariable(GRAPH_VAR_IDLE_RANDOM, cc.animation.VariableType.NUMBER, 0.0);
 
         const mainLayer = poseGraph.addLayer();
         this._setupMainLayer(mainLayer);
